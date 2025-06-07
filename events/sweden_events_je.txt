@@ -333,7 +333,7 @@ sweden_event_je.8 = {
 		default_option = yes
 		add_modifier = {
 			name = abolish_estates_modi
-			years = 2
+			years = 3
 		}
 	}
 }

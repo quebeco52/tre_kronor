@@ -1,1 +1,3 @@
-# tre_kronor
+# Tre kronor
+
+Adds flavor to sweden

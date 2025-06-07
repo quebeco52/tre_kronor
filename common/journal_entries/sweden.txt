@@ -1,0 +1,221 @@
+﻿mortala_verkstad_je = {
+	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = {
+		country_has_primary_culture = cu:swedish
+		owns_entire_state_region = STATE_SVEALAND
+	}
+
+	complete = {
+		has_technology_researched = mechanical_tools
+		s:STATE_SVEALAND = {
+		    any_scope_state = {
+				any_scope_building = {
+					is_building_type = building_tooling_workshops
+					level >= 3
+					occupancy > 0.50
+				}
+			}
+		}
+	}
+	
+	on_complete = {
+		trigger_event = { id = sweden_event_je.1 }
+	}
+	weight = 100
+}
+
+glasriket_je = {
+	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = {
+		country_has_primary_culture = cu:swedish
+		owns_entire_state_region = STATE_GOTALAND
+	}
+
+	complete = {
+		has_technology_researched = crystal_glass
+		s:STATE_GOTALAND = {
+		    any_scope_state = {
+				any_scope_building = {
+					is_building_type = building_glassworks
+					level >= 3
+					occupancy > 0.50
+				}
+			}
+		}
+	}
+	
+	on_complete = {
+		trigger_event = { id = sweden_event_je.2 }
+	}
+	weight = 100
+}
+
+timber_boom_je = {
+	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = {
+		country_has_primary_culture = cu:swedish
+		owns_entire_state_region = STATE_NORRLAND
+	}
+
+	complete = {
+		has_technology_researched = mechanical_tools
+		s:STATE_NORRLAND = {
+		    any_scope_state = {
+				any_scope_building = {
+					is_building_type = building_logging_camp
+					level >= 5
+					occupancy > 0.50
+				}
+			}
+		}
+	}
+	
+	on_complete = {
+		trigger_event = { id = sweden_event_je.3 }
+	}
+	weight = 100
+}
+
+retake_finland_je = {
+	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	group = je_group_foreign_affairs
+
+	is_shown_when_inactive = {
+		country_has_primary_culture = cu:swedish
+	}
+
+	complete = {
+		owns_entire_state_region = STATE_ALAND
+		owns_entire_state_region = STATE_UUSIMAA
+		owns_entire_state_region = STATE_OSTROBOTHNIA
+		owns_entire_state_region = STATE_OULU
+		owns_entire_state_region = STATE_KUOPIO
+		owns_entire_state_region = STATE_WEST_KARELIA
+	}
+	
+	on_complete = {
+		trigger_event = { id = sweden_event_je.4 }
+	}
+	weight = 100
+}
+
+iron_production_je = {
+	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = {
+		country_has_primary_culture = cu:swedish
+	}
+
+	complete = {
+		has_technology_researched = watertube_boiler
+		s:STATE_SVEALAND = {
+		    any_scope_state = {
+				any_scope_building = {
+					is_building_type = building_iron_mine
+					level >= 8
+					occupancy > 0.50
+				}
+			}
+		}
+		s:STATE_NORRLAND = {
+		    any_scope_state = {
+				any_scope_building = {
+					is_building_type = building_iron_mine
+					level >= 3
+					occupancy > 0.50
+				}
+			}
+		}
+	}
+	
+	on_complete = {
+		trigger_event = { id = sweden_event_je.5 }
+	}
+	weight = 100
+}
+
+nobel_dynamite_je = {
+	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = {
+		country_has_primary_culture = cu:swedish
+	}
+
+	complete = {
+		has_technology_researched = dynamite
+	}
+	on_complete = {
+		trigger_event = { id = sweden_event_je.6 }
+	}
+	weight = 100
+}
+
+folkhemmet_je = {
+	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = {
+		country_has_primary_culture = cu:swedish
+	}
+
+	complete = {
+		institution_investment_level = {
+			institution = institution_social_security
+			value = 3
+		}
+	
+	}
+	on_complete = {
+		trigger_event = { id = sweden_event_je.7 }
+	}
+	weight = 100
+}
+
+abolish_estates_je = {
+	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = {
+		country_has_primary_culture = cu:swedish
+	}
+
+	complete = {
+		OR = {
+			has_law = law_type:law_landed_voting
+			has_law = law_type:law_wealth_voting
+			has_law = law_type:law_census_voting
+			has_law = law_type:law_universal_suffrage
+		}
+	
+	}
+	on_complete = {
+		trigger_event = { id = sweden_event_je.8 }
+	}
+	weight = 100
+}
+
+rural_suffrage_je = {
+	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = {
+		country_has_primary_culture = cu:swedish
+	}
+
+	complete = {
+		has_law = law_type:law_landed_voting
+	
+	}
+	on_complete = {
+		trigger_event = { id = sweden_event_je.9 }
+	}
+	weight = 100
+}

@@ -1,0 +1,373 @@
+﻿namespace = sweden_event_je
+
+# Mortala verkstad
+sweden_event_je.1 = {
+	type = country_event
+
+	title = sweden_event_je.1.t
+	desc = sweden_event_je.1.d
+	flavor = sweden_event_je.1.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		
+	}
+
+	immediate = {
+        S:STATE_SVEALAND = {
+			random_scope_state = {
+				limit = {
+					owner = {
+						c:SWE = THIS
+					}
+				}
+				save_scope_as = svea_state
+			}
+		}
+	}
+
+	option = {
+		name = sweden_event_je.1.a
+		default_option = yes
+		scope:svea_state = {
+		    add_modifier = {
+				name = mortala_verkstad_modi
+				years = 10
+			}
+		}
+	}
+}
+
+sweden_event_je.2 = {
+	type = country_event
+
+	title = sweden_event_je.2.t
+	desc = sweden_event_je.2.d
+	flavor = sweden_event_je.2.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		
+	}
+
+	immediate = {
+        s:STATE_GOTALAND = {
+			random_scope_state = {
+				limit = {
+					owner = {
+						c:SWE = THIS
+					}
+				}
+				save_scope_as = gotaland_state
+			}
+		}
+	}
+
+	option = {
+		name = sweden_event_je.2.a
+		default_option = yes
+		scope:gotaland_state = {
+		    add_modifier = {
+				name = good_glass_quality_modi
+				years = 10
+			}
+		}
+	}
+}
+
+sweden_event_je.3 = {
+	type = country_event
+
+	title = sweden_event_je.3.t
+	desc = sweden_event_je.3.d
+	flavor = sweden_event_je.3.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		
+	}
+
+	immediate = {
+        s:STATE_NORRLAND = {
+			random_scope_state = {
+				limit = {
+					owner = {
+						c:SWE = THIS
+					}
+				}
+				save_scope_as = norrland_state
+			}
+		}
+	}
+
+	option = {
+		name = sweden_event_je.3.a
+		default_option = yes
+		scope:norrland_state = {
+		    add_modifier = {
+				name = timber_boom_modi
+				years = 10
+			}
+		}
+	}
+}
+
+sweden_event_je.4 = {
+	type = country_event
+
+	title = sweden_event_je.4.t
+	desc = sweden_event_je.4.d
+	flavor = sweden_event_je.4.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = sweden_event_je.4.a
+		default_option = yes	
+		add_modifier = {
+			name = retake_finland_modi
+			years = 10
+		}
+		add_loyalists = {
+			value = 0.2
+		}
+		s:STATE_INGRIA = {
+			add_claim = ROOT
+		}
+		s:STATE_TALINN = {
+			add_claim = ROOT
+		}
+		s:STATE_COURLAND = {
+			add_claim = ROOT
+		}
+		s:STATE_RIGA = {
+			add_claim = ROOT
+		}
+		s:STATE_TARTU = {
+			add_claim = ROOT
+		}
+
+	}
+}
+
+sweden_event_je.5 = {
+	type = country_event
+
+	title = sweden_event_je.5.t
+	desc = sweden_event_je.5.d
+	flavor = sweden_event_je.5.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		
+	}
+
+	immediate = {
+        s:STATE_NORRLAND = {
+			random_scope_state = {
+				limit = {
+					owner = {
+						c:SWE = THIS
+					}
+				}
+				save_scope_as = norrland_state
+			}
+		}
+		S:STATE_SVEALAND = {
+			random_scope_state = {
+				limit = {
+					owner = {
+						c:SWE = THIS
+					}
+				}
+				save_scope_as = svea_state
+			}
+		}
+	}
+
+	option = {
+		name = sweden_event_je.5.a
+		default_option = yes
+		scope:norrland_state = {
+		    add_modifier = {
+				name = iron_production_modi
+				years = 10
+			}
+		}
+		scope:svea_state = {
+		    add_modifier = {
+				name = iron_production_modi
+				years = 10
+			}
+		}
+	}
+}
+
+sweden_event_je.6 = {
+	type = country_event
+
+	title = sweden_event_je.6.t
+	desc = sweden_event_je.6.d
+	flavor = sweden_event_je.6.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = sweden_event_je.6.a
+		default_option = yes
+		add_modifier = { 
+			name = nobel_dynamite_modi
+			years = 10
+	}
+	}
+}
+
+sweden_event_je.7 = {
+	type = country_event
+
+	title = sweden_event_je.7.t
+	desc = sweden_event_je.7.d
+	flavor = sweden_event_je.7.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = sweden_event_je.7.a
+		default_option = yes
+		add_modifier = folkhemmet_modi
+	}
+}
+
+sweden_event_je.8 = {
+	type = country_event
+
+	title = sweden_event_je.8.t
+	desc = sweden_event_je.8.d
+	flavor = sweden_event_je.8.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = sweden_event_je.8.a
+		default_option = yes
+		add_modifier = {
+			name = abolish_estates_modi
+			years = 2
+		}
+	}
+}
+
+sweden_event_je.9 = {
+	type = country_event
+
+	title = sweden_event_je.9.t
+	desc = sweden_event_je.9.d
+	flavor = sweden_event_je.9.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = sweden_event_je.9.a
+		default_option = yes
+		add_modifier = {
+			name = rural_suffrage_power_modi
+			years = 3
+		}
+	}
+}
+
+

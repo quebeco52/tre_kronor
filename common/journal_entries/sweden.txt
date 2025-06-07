@@ -221,3 +221,22 @@ rural_suffrage_je = {
 	}
 	weight = 100
 }
+
+stockholm_exhibition_je = {
+	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = {
+		country_has_primary_culture = cu:swedish
+		has_technology_researched = realism
+	}
+
+	complete = {
+		has_technology_researched = camera
+	}
+	on_complete = {
+		trigger_event = { id = sweden_event_je.10 }
+	}
+	weight = 100
+}
+

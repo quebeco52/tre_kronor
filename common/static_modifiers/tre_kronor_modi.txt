@@ -52,3 +52,9 @@ rural_suffrage_power_modi {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	interest_group_ig_rural_folk_pol_str_mult = 0.30
 }
+
+stockholm_exhibition_modi {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	country_prestige_add = 50
+	state_capitalists_investment_pool_efficiency_mult = 0.05
+}

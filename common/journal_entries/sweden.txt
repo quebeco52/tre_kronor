@@ -105,7 +105,7 @@ retake_finland_je = {
 	weight = 100
 }
 
-iron_production_je = {
+bergslagen_revival_je = {
 	icon = "gfx/interface/icons/event_icons/event_election.dds"
 	group = je_group_internal_affairs
 
@@ -120,15 +120,6 @@ iron_production_je = {
 				any_scope_building = {
 					is_building_type = building_iron_mine
 					level >= 8
-					occupancy > 0.50
-				}
-			}
-		}
-		s:STATE_NORRLAND = {
-		    any_scope_state = {
-				any_scope_building = {
-					is_building_type = building_iron_mine
-					level >= 3
 					occupancy > 0.50
 				}
 			}
@@ -202,20 +193,30 @@ abolish_estates_je = {
 	weight = 100
 }
 
-rural_suffrage_je = {
+swedish_timber_export_je = {
 	icon = "gfx/interface/icons/event_icons/event_election.dds"
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
 		country_has_primary_culture = cu:swedish
+		owns_entire_state_region = STATE_NORRLAND
+		NOT = {
+			has_journal_entry = timber_boom_je
+		}
 	}
 
 	complete = {
-		OR = {
-		has_law = law_type:law_landed_voting
-		has_law = law_type:law_wealth_voting
+		s:STATE_NORRLAND = {
+		    any_scope_state = {
+				any_scope_building = {
+					is_building_type = building_logging_camp
+					level >= 9
+					occupancy > 0.50
+				}
+			}
 		}
 	}
+	
 	on_complete = {
 		trigger_event = { id = sweden_event_je.9 }
 	}
@@ -239,4 +240,35 @@ stockholm_exhibition_je = {
 	}
 	weight = 100
 }
+
+malmberget_discovery_je = {
+	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = {
+		country_has_primary_culture = cu:swedish
+		has_technology_researched = mechanical_tools
+	}
+
+	complete = {
+		has_technology_researched = watertube_boiler
+		has_technology_researched = railways
+		s:STATE_NORRLAND = {
+		    any_scope_state = {
+				any_scope_building = {
+					is_building_type = building_iron_mine
+					level >= 4
+					occupancy > 0.50
+				}
+			}
+		}
+	}
+	
+	on_complete = {
+		trigger_event = { id = sweden_event_je.11 }
+	}
+	weight = 100
+}
+
+
 

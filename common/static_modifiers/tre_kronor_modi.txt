@@ -1,6 +1,6 @@
 ﻿mortala_verkstad_modi = { # This is a modifier
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_group_bg_manufacturing_throughput_add = 0.2
+	building_group_bg_manufacturing_throughput_add = 0.1
 	state_education_access_wealth_add = 0.005
 }
 
@@ -25,8 +25,7 @@ retake_finland_modi {
 
 iron_production_modi {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_iron_mine_throughput_add = 0.2
-	state_infrastructure_mult = 0.1
+	building_iron_mine_throughput_add = 0.1
 }
 
 nobel_dynamite_modi {
@@ -57,4 +56,19 @@ stockholm_exhibition_modi {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	country_prestige_add = 50
 	state_capitalists_investment_pool_efficiency_mult = 0.05
+}
+
+railway_development_modi {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_infrastructure_mult = 0.20
+}
+
+timber_export_modi {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_group_bg_logging_throughput_add = 0.1
+}
+
+increased_furniture_manufactories_modi {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_furniture_manufacturies_throughput_add = 0.1
 }

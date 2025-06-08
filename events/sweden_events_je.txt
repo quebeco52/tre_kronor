@@ -205,16 +205,6 @@ sweden_event_je.5 = {
 	}
 
 	immediate = {
-        s:STATE_NORRLAND = {
-			random_scope_state = {
-				limit = {
-					owner = {
-						c:SWE = THIS
-					}
-				}
-				save_scope_as = norrland_state
-			}
-		}
 		S:STATE_SVEALAND = {
 			random_scope_state = {
 				limit = {
@@ -230,12 +220,6 @@ sweden_event_je.5 = {
 	option = {
 		name = sweden_event_je.5.a
 		default_option = yes
-		scope:norrland_state = {
-		    add_modifier = {
-				name = iron_production_modi
-				years = 10
-			}
-		}
 		scope:svea_state = {
 		    add_modifier = {
 				name = iron_production_modi
@@ -364,8 +348,16 @@ sweden_event_je.9 = {
 		name = sweden_event_je.9.a
 		default_option = yes
 		add_modifier = {
-			name = rural_suffrage_power_modi
-			years = 3
+			name = timber_export_modi
+			years = 4
+		}
+	}
+
+		option = {
+		name = sweden_event_je.9.b
+		add_modifier = {
+			name = increased_furniture_manufactories_modi
+			years = 4
 		}
 	}
 }
@@ -398,6 +390,54 @@ sweden_event_je.10 = {
 		add_modifier = {
 			name = stockholm_exhibition_modi
 			years = 10
+		}
+	}
+}
+
+sweden_event_je.11 = {
+	type = country_event
+
+	title = sweden_event_je.11.t
+	desc = sweden_event_je.11.d
+	flavor = sweden_event_je.11.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		
+	}
+
+	immediate = {
+		s:STATE_NORRLAND = {
+			random_scope_state = {
+				limit = {
+					owner = {
+						c:SWE = THIS
+					}
+				}
+				save_scope_as = norrland_state
+			}
+		}
+	}
+
+	option = {
+		name = sweden_event_je.11.a
+		default_option = yes
+		scope:norrland_state = {
+		    add_modifier = {
+				name = iron_production_modi
+				years = 10
+			}
+			add_modifier = {
+				name = railway_development_modi
+				years = 5
+			}
 		}
 	}
 }

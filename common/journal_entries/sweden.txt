@@ -78,6 +78,9 @@ timber_boom_je = {
 	
 	on_complete = {
 		trigger_event = { id = sweden_event_je.3 }
+		add_journal_entry = {
+			type = swedish_timber_export_je
+		}
 	}
 	weight = 100
 }
@@ -198,11 +201,7 @@ swedish_timber_export_je = {
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
-		country_has_primary_culture = cu:swedish
-		owns_entire_state_region = STATE_NORRLAND
-		NOT = {
-			has_journal_entry = timber_boom_je
-		}
+
 	}
 
 	complete = {
@@ -216,10 +215,17 @@ swedish_timber_export_je = {
 			}
 		}
 	}
+
+
 	
 	on_complete = {
 		trigger_event = { id = sweden_event_je.9 }
+		add_journal_entry = {
+			type = trapatron_je
+		}
 	}
+
+	
 	weight = 100
 }
 
@@ -269,6 +275,85 @@ malmberget_discovery_je = {
 	}
 	weight = 100
 }
+
+trapatron_je = {
+	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = {
+
+	}
+
+	complete = {
+		has_technology_researched = mutual_funds
+	}
+	
+	on_complete = {
+		trigger_event = { id = sweden_event_je.12 }
+	}
+	weight = 100
+}
+
+gothenburg_port_expansion_je = {
+	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = {
+		country_has_primary_culture = cu:swedish
+	}
+
+	possible = {
+
+	}
+
+	complete = {
+		s:STATE_GOTALAND = {
+		    any_scope_state = {
+				any_scope_building = {
+					is_building_type = building_urban_center
+					level >= 4
+				}
+			}
+		}
+		
+	}
+	
+	on_complete = {
+		trigger_event = { id = sweden_event_je.13 }
+	}
+	weight = 100
+}
+
+malmo_industrial_boom_je = {
+	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = {
+		country_has_primary_culture = cu:swedish
+	}
+
+	possible = {
+
+	}
+
+	complete = {
+		s:STATE_SCANIA = {
+		    any_scope_state = {
+				any_scope_building = {
+					is_building_type = building_urban_center
+					level >= 4
+				}
+			}
+		}
+		
+	}
+	
+	on_complete = {
+		trigger_event = { id = sweden_event_je.14 }
+	}
+	weight = 100
+}
+
 
 
 

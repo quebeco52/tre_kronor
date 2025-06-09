@@ -1,5 +1,4 @@
 ﻿l_english:
- #je
 
  mortala_verkstad_je: "The Motala Workshop"
  mortala_verkstad_je_reason: "Capitalize on the legacy of the Göta Canal by transforming Motala Verkstad into Sweden's industrial crown jewel."
@@ -7,7 +6,7 @@
  sweden_event_je.1.d: "Born from the monumental task of constructing the Göta Canal in 1822, Motala Verkstad has grown far beyond a mere workshop. Its engineers and craftsmen, renowned for their precision and innovation, are now poised to become a vital artery of our nation's industry, producing everything from locomotives to advanced machinery. This could mark the true dawn of Sweden's industrial prowess on the global stage, its output humming with the promise of unprecedented economic growth."
  sweden_event_je.1.f: "The clang of hammers and the hiss of steam from Motala echo across the land, a powerful heartbeat for Swedish innovation."
  sweden_event_je.1.a: "Elevate Our Industrial Might!"
- mortala_verkstad_modi: "Motala's Industrial Prowess"
+ mortala_verkstad_modi: "Motalas Industrial Prowess"
 
  glasriket_je: "The Kingdom of Glass"
  glasriket_je_reason: "Develop Småland's unique glassmaking traditions into a thriving industrial and artistic powerhouse, capturing both domestic and international markets."
@@ -38,6 +37,7 @@
  sweden_event_je.5.t: "Forging the Future of Bergslagen"
  sweden_event_je.5.d: "For centuries, the rugged terrain and deep mines of Bergslagen have supplied the iron and copper that form the backbone of Swedish industry. However, as the world advances, demanding more sophisticated metals and efficient production, our traditional methods risk falling behind. We face a critical choice: invest heavily in modernizing these ancient operations with technologies like Bessemer converters and steam-powered drills, or risk losing our competitive edge in the global market. The continued strength of Sweden's industrial might depends on the decisions we make concerning these vital, mineral-rich lands."
  sweden_event_je.5.a: "Launch a national modernization program for Bergslagen."
+ iron_production_modi: "Swedish Iron Prowess"
 
  nobel_dynamite_je: "Alfred Nobel's Explosive Genius"
  nobel_dynamite_je_reason: "Witness the revolutionary invention of dynamite by Alfred Nobel."
@@ -45,7 +45,7 @@
  sweden_event_je.6.d: "A brilliant Swedish inventor, Alfred Nobel, has achieved a groundbreaking feat: the successful stabilization of nitroglycerine, leading to the invention of 'dynamite'. This powerful new explosive promises to revolutionize mining, construction, and even warfare, offering unprecedented efficiency in breaking rock and shaping landscapes. Its impact on our industries and military capabilities will be profound, accelerating progress in ways previously unimaginable."
  sweden_event_je.6.f: "The earth trembles with the promise of a new era; excavation and demolition have just been redefined by Swedish ingenuity!"
  sweden_event_je.6.a: "Embrace the Dynamite Revolution!"
- nobel_dynamite_modi: "Dynamite's Impact"
+ nobel_dynamite_modi: "Dynamites Impact"
 
  folkhemmet_je: "The People's Home"
  folkhemmet_je_reason: "Embark on the ambitious project of building a socially equitable and prosperous society, ensuring welfare and security for all citizens, from cradle to grave."
@@ -53,7 +53,7 @@
  sweden_event_je.7.d: "As our nation grows and modernizes, a powerful new vision is taking root: the concept of 'Folkhemmet' – The People's Home. This is not merely a political platform, but a promise of a society built on solidarity, social equality, and shared welfare, where all citizens, regardless of background, are secure and contribute to the common good. It calls for comprehensive reforms in education, healthcare, social security, and housing, ensuring that prosperity benefits every Swede and lays the groundwork for a truly just society."
  sweden_event_je.7.f: "The foundation for a truly just and prosperous society is being laid, brick by brick, by the collective will and shared purpose of our people."
  sweden_event_je.7.a: "Commit to Building the People's Home!"
- folkhemmet_modi: "Building the People's Home"
+ folkhemmet_modi: "Building the Peoples Home"
 
  abolish_estates_je: "Abolishing the Old Order"
  abolish_estates_je_reason: "Confront the anachronistic Riksdag of the Estates and usher in a modern, representative parliamentary system for Sweden, reflecting the will of all citizens."
@@ -87,3 +87,28 @@
  sweden_event_je.11.d: "Whispers from the desolate, frozen expanse of Lapland have solidified into a resounding truth: the mountains near Malmberget conceal an iron ore deposit of unparalleled scale and purity. This discovery promises not merely a mine, but a veritable mountain of 'iron gold' capable of supplying the demands of industrializing Europe for generations. However, the sheer remoteness and the harsh Arctic climate present immense challenges. Exploiting this treasure will require monumental investments in railways stretching across vast wilderness, advanced mining techniques, and the brave souls willing to carve a new society from the frozen north. Success could redefine Sweden's industrial future." # 
  sweden_event_je.11.f: "Where the Sami once roamed, the hammer of industry now calls."
  sweden_event_je.11.a: "Embark on the monumental task of developing Malmberget."
+
+ trapatron_je: "The Träpatroner's Grip"
+ trapatron_je_reason: "Observe the consolidation of immense power and wealth by a new class of timber magnates in Norrland, whose influence shapes entire communities and industries."
+ sweden_event_je.12.t: "The Träpatron's Dominion"
+ sweden_event_je.12.d: "As the timber industry booms in Norrland, a powerful new class of industrialist, the 'Träpatroner' (Timber Barons), has risen to prominence. These magnates, often acquiring vast tracts of forest and establishing entire company towns around their sawmills, wield immense influence over the economy and lives of thousands. Their efficient, often authoritarian, control drives unparalleled production and wealth, but their dominance also raises questions about labor conditions, local autonomy, and the concentration of power in the hands of a few formidable individuals."
+ sweden_event_je.12.f: "The smokestacks of their mills now cast long shadows over the northern landscape, symbols of their undeniable power."
+ sweden_event_je.12.a: "Acknowledge Their Indispensable Role!"
+ trapatron_modi: "Träpatroners Influence"
+
+ gothenburg_port_expansion_je: "Gateway to the West"
+ gothenburg_port_expansion_je_reason: "As industrialization takes hold and emigration swells, Gothenburg's role as Sweden's premier western port becomes ever more critical. Expanding its capacity is vital for our trade and global connections."
+ sweden_event_je.13.t: "Gothenburg: The Expanding Metropolis"
+ sweden_event_je.13.d: "Perched strategically on our western coast, Gothenburg has long been Sweden's vital link to the North Sea and the wider Atlantic world. With the relentless march of industrialization, the city has transformed into a bustling hub of commerce, shipbuilding, and a primary point of departure for countless Swedes seeking new lives abroad. Yet, the very success of Gothenburg strains its aging port infrastructure. Larger steamships demand deeper berths and longer quays, and the flow of goods and people necessitates expanded rail connections and customs facilities. Investing in its growth means solidifying our position as a major European trading power and facilitating the dreams of our emigrating population."
+ sweden_event_je.13.f: "The city's canals once echoed with Dutch tongues; now its docks resonate with the clamor of a globalizing world."
+ sweden_event_je.13.a: "Launch a major port expansion project in Gothenburg."
+ gothenburg_modi: "Göteborg"
+
+ malmo_industrial_boom_je: "The Southern Industrial Engine"
+ malmo_industrial_boom_je_reason: "Malmö, strategically positioned at the gateway to Europe, is poised for a period of rapid industrial growth, fueled by its port and railway connections. We must capitalize on its potential."
+ sweden_event_je.14.t: "Malmö: A City Forged in Industry"
+ sweden_event_je.14.d: "Located at the very tip of our southernmost province, Malmö has long been a vital link between Sweden and the European continent. As industrialization intensifies, the city is rapidly transforming from a provincial town into a powerful industrial engine. Its deep-water port, now connected to our burgeoning railway network via the Southern Main Line, is becoming an indispensable hub for both trade and heavy manufacturing, particularly in shipbuilding and engineering. The fertile farmlands of Scania feed its mills, and its proximity to the continent offers unparalleled access to markets. This rapid growth, however, demands foresight in urban planning, infrastructure, and labor management to ensure Malmö's prosperity endures."
+ sweden_event_je.14.f: "Where the Baltic meets the continent, the future of Swedish industry is being forged."
+ sweden_event_je.14.a: "Invest heavily in Malmö's industrial and farmland expansion."
+ malmo_modi: "Malmö"
+ 

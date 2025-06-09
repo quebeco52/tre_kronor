@@ -16,6 +16,7 @@ sweden_event_je.1 = {
 
 	duration = 3
 
+
 	trigger = {
 		
 	}
@@ -287,6 +288,9 @@ sweden_event_je.7 = {
 		name = sweden_event_je.7.a
 		default_option = yes
 		add_modifier = folkhemmet_modi
+		add_loyalists = {
+			value = 0.1
+		}
 	}
 }
 
@@ -438,6 +442,121 @@ sweden_event_je.11 = {
 				name = railway_development_modi
 				years = 5
 			}
+		}
+	}
+}
+
+sweden_event_je.12 = {
+	type = country_event
+
+	title = sweden_event_je.12.t
+	desc = sweden_event_je.12.d
+	flavor = sweden_event_je.12.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = sweden_event_je.12.a
+		default_option = yes
+		add_modifier = {
+			name = trapatron_modi
+			years = 10
+		}
+	}
+}
+
+sweden_event_je.13 = {
+	type = country_event
+
+	title = sweden_event_je.13.t
+	desc = sweden_event_je.13.d
+	flavor = sweden_event_je.13.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		
+	}
+
+	immediate = {
+        s:STATE_GOTALAND = {
+			random_scope_state = {
+				limit = {
+					owner = {
+						c:SWE = THIS
+					}
+				}
+				save_scope_as = gotaland_state
+			}
+		}
+	}
+
+	option = {
+		name = sweden_event_je.13.a
+		default_option = yes
+		scope:gotaland_state = {
+		    add_modifier = gothenburg_modi
+		}
+	}
+}
+
+sweden_event_je.14 = {
+	type = country_event
+
+	title = sweden_event_je.14.t
+	desc = sweden_event_je.14.d
+	flavor = sweden_event_je.14.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		
+	}
+
+	immediate = {
+        s:STATE_SCANIA = {
+			random_scope_state = {
+				limit = {
+					owner = {
+						c:SWE = THIS
+					}
+				}
+				save_scope_as = scania_state
+			}
+		}
+	}
+
+	option = {
+		name = sweden_event_je.14.a
+		default_option = yes
+		scope:scania_state = {
+		    add_modifier = malmo_modi
 		}
 	}
 }

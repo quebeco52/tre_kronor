@@ -1,7 +1,7 @@
-﻿mortala_verkstad_modi = { # This is a modifier
+﻿
+mortala_verkstad_modi = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	building_group_bg_manufacturing_throughput_add = 0.1
-	state_education_access_wealth_add = 0.005
 }
 
 good_glass_quality_modi = {
@@ -38,7 +38,6 @@ folkhemmet_modi {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	state_assimilation_mult = 0.1
 	state_conversion_mult = 0.1
-	state_education_access_add = 0.05
 }
 
 abolish_estates_modi {
@@ -71,4 +70,23 @@ timber_export_modi {
 increased_furniture_manufactories_modi {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	building_furniture_manufacturies_throughput_add = 0.1
+}
+
+trapatron_modi {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_group_bg_logging_throughput_add = 0.1
+}
+
+gothenburg_modi {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_port_throughput_add = 0.1
+	building_shipyards_throughput_add = 0.1
+	building_military_shipyards_throughput_add = 0.1
+}
+
+malmo_modi {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_group_bg_manufacturing_throughput_add = 0.1
+	building_livestock_ranch_throughput_add = 0.1
+	building_rye_farm_throughput_add = 0.1
 }

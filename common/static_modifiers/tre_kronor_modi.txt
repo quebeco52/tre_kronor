@@ -31,7 +31,7 @@ iron_production_modi {
 nobel_dynamite_modi {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	building_explosives_factory_throughput_add = 0.1
-	country_prestige_add = 40
+	country_prestige_add = 20
 }
 
 folkhemmet_modi {
@@ -53,7 +53,7 @@ rural_suffrage_power_modi {
 
 stockholm_exhibition_modi {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	country_prestige_add = 50
+	country_prestige_add = 30
 	state_capitalists_investment_pool_efficiency_mult = 0.05
 }
 

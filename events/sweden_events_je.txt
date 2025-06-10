@@ -1,8 +1,7 @@
 ﻿namespace = sweden_event_je
 
-# Mortala verkstad
 sweden_event_je.1 = {
-	type = country_event
+	type = state_event
 
 	title = sweden_event_je.1.t
 	desc = sweden_event_je.1.d
@@ -34,6 +33,8 @@ sweden_event_je.1 = {
 		}
 	}
 
+	placement = scope:svea_state
+
 	option = {
 		name = sweden_event_je.1.a
 		default_option = yes
@@ -47,7 +48,7 @@ sweden_event_je.1 = {
 }
 
 sweden_event_je.2 = {
-	type = country_event
+	type = state_event
 
 	title = sweden_event_je.2.t
 	desc = sweden_event_je.2.d
@@ -78,6 +79,8 @@ sweden_event_je.2 = {
 		}
 	}
 
+	placement = scope:gotaland_state
+
 	option = {
 		name = sweden_event_je.2.a
 		default_option = yes
@@ -91,7 +94,7 @@ sweden_event_je.2 = {
 }
 
 sweden_event_je.3 = {
-	type = country_event
+	type = state_event
 
 	title = sweden_event_je.3.t
 	desc = sweden_event_je.3.d
@@ -121,6 +124,8 @@ sweden_event_je.3 = {
 			}
 		}
 	}
+
+	placement = scope:norrland_state
 
 	option = {
 		name = sweden_event_je.3.a
@@ -187,7 +192,7 @@ sweden_event_je.4 = {
 }
 
 sweden_event_je.5 = {
-	type = country_event
+	type = state_event
 
 	title = sweden_event_je.5.t
 	desc = sweden_event_je.5.d
@@ -217,6 +222,8 @@ sweden_event_je.5 = {
 			}
 		}
 	}
+
+	placement = scope:svea_state
 
 	option = {
 		name = sweden_event_je.5.a
@@ -399,7 +406,7 @@ sweden_event_je.10 = {
 }
 
 sweden_event_je.11 = {
-	type = country_event
+	type = state_event
 
 	title = sweden_event_je.11.t
 	desc = sweden_event_je.11.d
@@ -429,6 +436,8 @@ sweden_event_je.11 = {
 			}
 		}
 	}
+
+	placement = scope:norrland_state
 
 	option = {
 		name = sweden_event_je.11.a
@@ -480,7 +489,7 @@ sweden_event_je.12 = {
 }
 
 sweden_event_je.13 = {
-	type = country_event
+	type = state_event
 
 	title = sweden_event_je.13.t
 	desc = sweden_event_je.13.d
@@ -511,6 +520,8 @@ sweden_event_je.13 = {
 		}
 	}
 
+	placement = scope:gotaland_state
+
 	option = {
 		name = sweden_event_je.13.a
 		default_option = yes
@@ -521,7 +532,7 @@ sweden_event_je.13 = {
 }
 
 sweden_event_je.14 = {
-	type = country_event
+	type = state_event
 
 	title = sweden_event_je.14.t
 	desc = sweden_event_je.14.d
@@ -552,6 +563,8 @@ sweden_event_je.14 = {
 		}
 	}
 
+	placement = scope:scania_state
+
 	option = {
 		name = sweden_event_je.14.a
 		default_option = yes
@@ -562,7 +575,7 @@ sweden_event_je.14 = {
 }
 
 sweden_event_je.15 = {
-	type = country_event
+	type = state_event
 
 	title = sweden_event_je.15.t
 	desc = sweden_event_je.15.d
@@ -592,6 +605,8 @@ sweden_event_je.15 = {
 			}
 		}
 	}
+
+	placement = scope:svea_state
 
 	option = {
 		name = sweden_event_je.15.a

@@ -1,5 +1,5 @@
 ﻿mortala_verkstad_je = {
-	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
@@ -13,7 +13,7 @@
 		    any_scope_state = {
 				any_scope_building = {
 					is_building_type = building_tooling_workshops
-					level >= 3
+					level >= 4
 					occupancy > 0.50
 				}
 			}
@@ -27,7 +27,7 @@
 }
 
 glasriket_je = {
-	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
@@ -41,7 +41,7 @@ glasriket_je = {
 		    any_scope_state = {
 				any_scope_building = {
 					is_building_type = building_glassworks
-					level >= 3
+					level >= 4
 					occupancy > 0.50
 				}
 			}
@@ -55,7 +55,7 @@ glasriket_je = {
 }
 
 timber_boom_je = {
-	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
@@ -86,7 +86,7 @@ timber_boom_je = {
 }
 
 retake_finland_je = {
-	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_foreign_affairs
 
 	is_shown_when_inactive = {
@@ -109,7 +109,7 @@ retake_finland_je = {
 }
 
 bergslagen_revival_je = {
-	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
@@ -136,7 +136,7 @@ bergslagen_revival_je = {
 }
 
 nobel_dynamite_je = {
-	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
@@ -153,7 +153,7 @@ nobel_dynamite_je = {
 }
 
 folkhemmet_je = {
-	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
@@ -197,7 +197,7 @@ abolish_estates_je = {
 }
 
 swedish_timber_export_je = {
-	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
@@ -230,7 +230,7 @@ swedish_timber_export_je = {
 }
 
 stockholm_exhibition_je = {
-	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
@@ -248,7 +248,7 @@ stockholm_exhibition_je = {
 }
 
 malmberget_discovery_je = {
-	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
@@ -277,7 +277,7 @@ malmberget_discovery_je = {
 }
 
 trapatron_je = {
-	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
@@ -295,7 +295,7 @@ trapatron_je = {
 }
 
 gothenburg_port_expansion_je = {
-	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
@@ -307,11 +307,12 @@ gothenburg_port_expansion_je = {
 	}
 
 	complete = {
+		has_technology_researched = railways
 		s:STATE_GOTALAND = {
 		    any_scope_state = {
 				any_scope_building = {
 					is_building_type = building_urban_center
-					level >= 4
+					level >= 5
 				}
 			}
 		}
@@ -325,7 +326,7 @@ gothenburg_port_expansion_je = {
 }
 
 malmo_industrial_boom_je = {
-	icon = "gfx/interface/icons/event_icons/event_election.dds"
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
@@ -337,11 +338,12 @@ malmo_industrial_boom_je = {
 	}
 
 	complete = {
+		has_technology_researched = railways
 		s:STATE_SCANIA = {
 		    any_scope_state = {
 				any_scope_building = {
 					is_building_type = building_urban_center
-					level >= 4
+					level >= 5
 				}
 			}
 		}
@@ -350,6 +352,37 @@ malmo_industrial_boom_je = {
 	
 	on_complete = {
 		trigger_event = { id = sweden_event_je.14 }
+	}
+	weight = 100
+}
+
+stockholm_urban_growth_je = {
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = {
+		country_has_primary_culture = cu:swedish
+	}
+
+	possible = {
+
+	}
+
+	complete = {
+		has_technology_researched = railways
+		s:STATE_SVEALAND = {
+		    any_scope_state = {
+				any_scope_building = {
+					is_building_type = building_urban_center
+					level >= 10
+				}
+			}
+		}
+		
+	}
+	
+	on_complete = {
+		trigger_event = { id = sweden_event_je.15 }
 	}
 	weight = 100
 }

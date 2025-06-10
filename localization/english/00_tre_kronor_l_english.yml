@@ -36,6 +36,7 @@
  bergslagen_revival_je_reason: "Bergslagen, Sweden's ancient mining district, holds the key to our industrial future. Modernizing its operations is essential to meet the burgeoning demand for metals."
  sweden_event_je.5.t: "Forging the Future of Bergslagen"
  sweden_event_je.5.d: "For centuries, the rugged terrain and deep mines of Bergslagen have supplied the iron and copper that form the backbone of Swedish industry. However, as the world advances, demanding more sophisticated metals and efficient production, our traditional methods risk falling behind. We face a critical choice: invest heavily in modernizing these ancient operations with technologies like Bessemer converters and steam-powered drills, or risk losing our competitive edge in the global market. The continued strength of Sweden's industrial might depends on the decisions we make concerning these vital, mineral-rich lands."
+ sweden_event_je.5.f: "Awaken the heart of swedish pride"
  sweden_event_je.5.a: "Launch a national modernization program for Bergslagen."
  iron_production_modi: "Swedish Iron Prowess"
 
@@ -87,6 +88,7 @@
  sweden_event_je.11.d: "Whispers from the desolate, frozen expanse of Lapland have solidified into a resounding truth: the mountains near Malmberget conceal an iron ore deposit of unparalleled scale and purity. This discovery promises not merely a mine, but a veritable mountain of 'iron gold' capable of supplying the demands of industrializing Europe for generations. However, the sheer remoteness and the harsh Arctic climate present immense challenges. Exploiting this treasure will require monumental investments in railways stretching across vast wilderness, advanced mining techniques, and the brave souls willing to carve a new society from the frozen north. Success could redefine Sweden's industrial future." # 
  sweden_event_je.11.f: "Where the Sami once roamed, the hammer of industry now calls."
  sweden_event_je.11.a: "Embark on the monumental task of developing Malmberget."
+ railway_development_modi: "Railway Development"
 
  trapatron_je: "The Träpatroner's Grip"
  trapatron_je_reason: "Observe the consolidation of immense power and wealth by a new class of timber magnates in Norrland, whose influence shapes entire communities and industries."
@@ -111,4 +113,12 @@
  sweden_event_je.14.f: "Where the Baltic meets the continent, the future of Swedish industry is being forged."
  sweden_event_je.14.a: "Invest heavily in Malmö's industrial and farmland expansion."
  malmo_modi: "Malmö"
+
+ stockholm_urban_growth_je: "Stockholm's Metropolitan Ambition"
+ stockholm_urban_growth_je_reason: "Our capital, Stockholm, is undergoing a dramatic transformation, evolving from a historic city into a bustling, modern metropolis, with all the challenges and opportunities that entails."
+ sweden_event_je.15.t: "The Capital's New Face: Stockholm Rises"
+ sweden_event_je.15.d: "The ancient cobbled streets of Stockholm are giving way to grand boulevards and towering new buildings, as our capital experiences unprecedented growth and modernization. Engineers and architects are reimagining the city, planning for improved infrastructure like advanced sewage systems, public transportation, and expanded housing to accommodate a burgeoning population. This ambitious urban transformation promises to solidify Stockholm's place as a true European capital, a symbol of Swedish progress and prosperity. However, managing such rapid development also presents significant challenges: ensuring adequate housing for all, maintaining public health amidst density, and preserving the city's unique historical character."
+ sweden_event_je.15.f: "From the narrow alleys of Gamla Stan to the expansive new districts, the very stones of Stockholm whisper tales of a city ceaselessly reinventing itself."
+ sweden_event_je.15.a: "Invest in the Capital's Grand Design!"
+ stockholm_modi: "Stockholm"
  

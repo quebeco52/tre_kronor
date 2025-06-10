@@ -18,7 +18,7 @@ timber_boom_modi {
 }
 
 retake_finland_modi {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	country_influence_mult = 0.1
 	country_authority_add = 100
 }
@@ -29,13 +29,13 @@ iron_production_modi {
 }
 
 nobel_dynamite_modi {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	building_explosives_factory_throughput_add = 0.1
 	country_prestige_add = 40
 }
 
 folkhemmet_modi {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	state_assimilation_mult = 0.1
 	state_conversion_mult = 0.1
 }
@@ -52,7 +52,7 @@ rural_suffrage_power_modi {
 }
 
 stockholm_exhibition_modi {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	country_prestige_add = 50
 	state_capitalists_investment_pool_efficiency_mult = 0.05
 }
@@ -63,7 +63,7 @@ railway_development_modi {
 }
 
 timber_export_modi {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	building_group_bg_logging_throughput_add = 0.1
 }
 
@@ -78,15 +78,23 @@ trapatron_modi {
 }
 
 gothenburg_modi {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	building_port_throughput_add = 0.1
 	building_shipyards_throughput_add = 0.1
 	building_military_shipyards_throughput_add = 0.1
 }
 
 malmo_modi {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	building_group_bg_manufacturing_throughput_add = 0.1
 	building_livestock_ranch_throughput_add = 0.1
 	building_rye_farm_throughput_add = 0.1
+}
+
+stockholm_modi {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	building_government_administration_throughput_add = 0.10
+	building_university_throughput_add = 0.10
+	state_decree_cost_mult = -0.25
+	
 }

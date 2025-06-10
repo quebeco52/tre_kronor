@@ -40,7 +40,7 @@ sweden_event_je.1 = {
 		scope:svea_state = {
 		    add_modifier = {
 				name = mortala_verkstad_modi
-				years = 10
+				years = 20
 			}
 		}
 	}
@@ -84,7 +84,7 @@ sweden_event_je.2 = {
 		scope:gotaland_state = {
 		    add_modifier = {
 				name = good_glass_quality_modi
-				years = 10
+				years = 20
 			}
 		}
 	}
@@ -142,7 +142,7 @@ sweden_event_je.4 = {
 	flavor = sweden_event_je.4.f
 
 	event_image = {
-		video = "europenorthamerica_capitalists_meeting"
+		video = "europenorthamerica_before_the_battle"
 	}
 
 	icon = "gfx/interface/icons/event_icons/event_trade.dds"
@@ -238,7 +238,7 @@ sweden_event_je.6 = {
 	flavor = sweden_event_je.6.f
 
 	event_image = {
-		video = "europenorthamerica_capitalists_meeting"
+		video = "europenorthamerica_art_gallery"
 	}
 
 	icon = "gfx/interface/icons/event_icons/event_trade.dds"
@@ -270,7 +270,7 @@ sweden_event_je.7 = {
 	flavor = sweden_event_je.7.f
 
 	event_image = {
-		video = "europenorthamerica_capitalists_meeting"
+		video = "europenorthamerica_london_center"
 	}
 
 	icon = "gfx/interface/icons/event_icons/event_trade.dds"
@@ -302,7 +302,7 @@ sweden_event_je.8 = {
 	flavor = sweden_event_je.8.f
 
 	event_image = {
-		video = "europenorthamerica_capitalists_meeting"
+		video = "europenorthamerica_rich_and_poor"
 	}
 
 	icon = "gfx/interface/icons/event_icons/event_trade.dds"
@@ -487,7 +487,7 @@ sweden_event_je.13 = {
 	flavor = sweden_event_je.13.f
 
 	event_image = {
-		video = "europenorthamerica_capitalists_meeting"
+		video = "europenorthamerica_london_center"
 	}
 
 	icon = "gfx/interface/icons/event_icons/event_trade.dds"
@@ -528,7 +528,7 @@ sweden_event_je.14 = {
 	flavor = sweden_event_je.14.f
 
 	event_image = {
-		video = "europenorthamerica_capitalists_meeting"
+		video = "europenorthamerica_london_center"
 	}
 
 	icon = "gfx/interface/icons/event_icons/event_trade.dds"
@@ -557,6 +557,47 @@ sweden_event_je.14 = {
 		default_option = yes
 		scope:scania_state = {
 		    add_modifier = malmo_modi
+		}
+	}
+}
+
+sweden_event_je.15 = {
+	type = country_event
+
+	title = sweden_event_je.15.t
+	desc = sweden_event_je.15.d
+	flavor = sweden_event_je.15.f
+
+	event_image = {
+		video = "europenorthamerica_london_center"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		
+	}
+
+	immediate = {
+        s:STATE_SVEALAND = {
+			random_scope_state = {
+				limit = {
+					owner = {
+						c:SWE = THIS
+					}
+				}
+				save_scope_as = svea_state
+			}
+		}
+	}
+
+	option = {
+		name = sweden_event_je.15.a
+		default_option = yes
+		scope:svea_state = {
+		    add_modifier = stockholm_modi
 		}
 	}
 }

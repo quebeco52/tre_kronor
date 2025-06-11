@@ -11,8 +11,8 @@ good_glass_quality_modi = {
 
 sundsvall_timber_modi {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_group_bg_logging_throughput_add = 0.1
-	building_furniture_manufacturies_throughput_add = 0.1
+	building_group_bg_logging_throughput_add = 0.05
+	building_furniture_manufacturies_throughput_add = 0.05
 }
 
 retake_finland_modi {
@@ -41,7 +41,6 @@ folkhemmet_modi {
 abolish_estates_modi {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	country_bureaucracy_mult = 0.05
-	
 }
 
 stockholm_exhibition_modi {
@@ -90,7 +89,6 @@ stockholm_modi {
 	building_government_administration_throughput_add = 0.10
 	building_university_throughput_add = 0.10
 	state_decree_cost_mult = -0.25
-	
 }
 
 motala_strike_modi {
@@ -107,7 +105,6 @@ lasare_movement_modi {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
 	state_conversion_mult = 0.1
 	interest_group_ig_rural_folk_approval_add = 3
-
 }
 
 church_support_modi {
@@ -119,4 +116,13 @@ church_support_modi {
 matchstick_boom_modi {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	building_group_bg_manufacturing_throughput_add = 0.05
+}
+
+sundsvall_fire_modi {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_group_bg_logging_throughput_add = 0.05
+	building_furniture_manufacturies_throughput_add = 0.05
+	building_government_administration_throughput_add = 0.05
+	building_university_throughput_add = 0.05
+	state_decree_cost_mult = -0.10
 }

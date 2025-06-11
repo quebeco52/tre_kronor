@@ -681,3 +681,57 @@ sweden_event.18 = {
 	}
 }
 
+# this is weird it triggers without firing the event
+# sweden_event.19 = {
+# 	type = country_event
+
+# 	title = sweden_event.19.t
+# 	desc = sweden_event.19.d
+# 	flavor = sweden_event.19.f
+
+# 	event_image = {
+# 		video = "europenorthamerica_capitalists_meeting"
+# 	}
+
+# 	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+# 	duration = 3
+
+# 	cooldown = {
+# 		years = 1
+# 	}
+
+# 	trigger = {
+# 		game_date >= 1888
+
+# 		NOT = {
+# 			has_variable = var_event_19
+# 		}
+# 	}
+
+# 	immediate = {
+#         s:STATE_NORRLAND = {
+# 			random_scope_state = {
+# 				limit = {
+# 					owner = {
+# 						c:SWE = THIS
+# 					}
+# 				}
+# 				save_scope_as = norrland_state
+# 			}
+# 		}
+# 		set_variable = var_event_19
+# 	}
+
+# 	placement = scope:norrland_state
+
+# 	option = {
+# 		name = sweden_event.19.a
+# 		default_option = yes
+# 		scope:norrland_state = {
+# 			remove_modifier = sundsvall_timber_modi
+# 		    add_modifier = sundsvall_fire_modi
+# 		}
+# 	}
+# }
+

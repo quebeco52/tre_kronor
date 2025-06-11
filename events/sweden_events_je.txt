@@ -327,7 +327,7 @@ sweden_event_je.8 = {
 		default_option = yes
 		add_modifier = {
 			name = abolish_estates_modi
-			years = 3
+			years = 5
 		}
 	}
 }
@@ -359,7 +359,7 @@ sweden_event_je.9 = {
 		default_option = yes
 		add_modifier = {
 			name = timber_export_modi
-			years = 4
+			years = 3
 		}
 	}
 
@@ -367,7 +367,7 @@ sweden_event_je.9 = {
 		name = sweden_event_je.9.b
 		add_modifier = {
 			name = increased_furniture_manufactories_modi
-			years = 4
+			years = 3
 		}
 	}
 }
@@ -444,11 +444,11 @@ sweden_event_je.11 = {
 		scope:norrland_state = {
 		    add_modifier = {
 				name = iron_production_modi
-				years = 10
+				years = 5
 			}
 			add_modifier = {
 				name = railway_development_modi
-				years = 5
+				years = 3
 			}
 		}
 	}
@@ -482,7 +482,7 @@ sweden_event_je.11 = {
 # 		default_option = yes
 # 		add_modifier = {
 # 			name = trapatron_modi
-# 			years = 10
+# 			years = 5
 # 		}
 # 	}
 # }

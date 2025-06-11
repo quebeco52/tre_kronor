@@ -132,10 +132,8 @@ sweden_event_je.3 = {
 		name = sweden_event_je.3.a
 		default_option = yes
 		scope:norrland_state = {
-		    add_modifier = {
-				name = timber_boom_modi
-				years = 10
-			}
+		    add_modifier = sundsvall_timber_modi
+			
 		}
 	}
 }

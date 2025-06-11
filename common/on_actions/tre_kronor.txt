@@ -7,5 +7,17 @@
         sweden_event.5
         sweden_event.6
         sweden_event.7
+        sweden_event.8
+        sweden_event.9
+        sweden_event.10
+        sweden_event.11
+        sweden_event.12
+        sweden_event.13
+        sweden_event.14
+        sweden_event.15
+        sweden_event.16
+        sweden_event.17
+        sweden_event.18
     }
 }
+

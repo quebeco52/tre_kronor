@@ -16,13 +16,13 @@
  sweden_event_je.2.a: "Automate the Production Line!"
  good_glass_quality_modi: "Glasriket"
 
- timber_boom_je: "The Timber Boom"
- timber_boom_je_reason: "Industrialize Norrland's vast forests and capitalize on the surging demand for wood products."
- sweden_event_je.3.t: "The Green Gold of Norrland"
- sweden_event_je.3.d: "From the vast, silent forests of Norrland, a new clamor arises. The surging demand for timber across industrializing Europe turns our boundless woodlands into a potential source of immense wealth. New steam-powered sawmills along the coast, fed by logs expertly floated down our myriad rivers, promise a harvest unlike any seen before. This 'green gold' could fuel our nation's prosperity, bringing unprecedented opportunities to our northern provinces and transforming vast stretches of wilderness into bustling centers of production."
- sweden_event_je.3.f: "The scent of pine and sawdust fills the air, promising a future for countless Swedes eager to seek their fortune in the burgeoning timber industry."
- sweden_event_je.3.a: "Unleash the Lumberjacks!"
- timber_boom_modi: "Timber boom"
+ sundsvall_timber_je: "Sundsvall: The Timber Capital"
+ sundsvall_timber_je_reason: "Sundsvall's sawmills are operating at an unprecedented scale, solidifying its position as the undisputed heart of Sweden's booming timber industry and a global export hub."
+ sweden_event_je.3.t: "The Roar of Sundsvall's Sawmills"
+ sweden_event_je.3.d: "Along the meandering Selånger River and the bustling shores of the Sundsvall Bay, a new industrial symphony dominates the air: the relentless roar of sawmills. Sundsvall has rapidly transformed into the undeniable center of Sweden's immense timber industry, with dozens of steam-powered sawmills processing vast quantities of 'green gold' floated down from Norrland's endless forests. The sheer volume of lumber leaving its docks fuels industries across Europe, bringing immense wealth and employment to the region. This economic powerhouse, however, also presents challenges in managing urban growth, worker conditions, and the strain on natural resources."
+ sweden_event_je.3.f: "The very air in Sundsvall hums with the energy of industry, thick with the scent of sawdust and the promise of prosperity forged from our forests."
+ sweden_event_je.3.a: "Capitalize on the Timber Trade!"
+ sundsvall_timber_modi: "Sundsvall"
 
  retake_finland_je: "Reclaiming Finland"
  retake_finland_je_reason: "More than a century has passed since Finland was cruelly severed from our dominion, and the tyranny of the Eastern Bear has weighed heavily upon the Finnish people. Yet, the winds of change are stirring. With renewed strength and cunning, we may now possess the means to reclaim what is rightfully ours and liberate our long-suffering brethren."
@@ -167,3 +167,59 @@
  sweden_event.7.f: "A flicker of genius ignites an industrial fire, spreading Swedish innovation across the world."
  sweden_event.7.a: "Capitalize on Our Advantage!"
  matchstick_boom_modi: "Swedish Matchstick Supremacy"
+
+ sweden_event.8.t: "The Parish School Ordinance of 1842: Education for All"
+ sweden_event.8.d: "Sweden has long prided itself on its relatively high literacy rates, but education has often been inconsistent or limited to private means. Now, the Riksdag has passed the groundbreaking Parish School Ordinance of 1842, making it compulsory for every parish to establish and maintain a primary school. This foundational law marks Sweden's commitment to universal education, ensuring that every child, regardless of social standing, has access to basic schooling. Implementing this will require significant investment in teachers and schoolhouses, but it promises a more skilled and enlightened populace for the future."
+ sweden_event.8.f: "The school bell rings across the land, calling every Swedish child to the path of knowledge."
+ sweden_event.8.a: "Enact the Ordinance!"
+
+ sweden_event.9.t: "The Guild Edict of 1846: Freeing Commerce"
+ sweden_event.9.d: "For centuries, the guild system has regulated trades and protected master craftsmen, but it has increasingly become a barrier to industrial growth and free competition. After decades of debate and pressure from liberal economic thinkers, the Guild Edict of 1846 has been adopted, effectively abolishing the last remnants of guild monopolies and opening up trades to all citizens. This landmark legislation is set to unleash entrepreneurial spirit, foster new industries, and significantly boost economic activity, particularly in urban centers. However, it may cause initial disruption for traditional artisans."
+ sweden_event.9.f: "The chains of ancient privilege are broken, unleashing the full force of free enterprise."
+ sweden_event.9.a: "Abolish the Guilds!"
+
+ sweden_event.10.t: "The Poor Law of 1847: Centralizing Welfare"
+ sweden_event.10.d: "To address the growing problem of poverty and vagrancy in an industrializing society, Sweden has adopted a new Poor Law in 1847. This reform aims to standardize and centralize welfare efforts, shifting responsibility from individual parishes to broader municipal or county levels, and introducing more structured forms of aid, often including workhouses for the able-bodied. While designed to make poor relief more efficient and less arbitrary, it also reflects a stricter approach to poverty, emphasizing self-reliance and imposing greater social control over the destitute."
+ sweden_event.10.f: "The hand of the state offers relief, but with a firm grip and a watchful eye."
+ sweden_event.10.a: "Implement the Poor Law!"
+
+ sweden_event.11.t: "The Freedom of Trade and Industry Act of 1864: Economic Liberalization"
+ sweden_event.11.d: "Following the abolition of the guilds, Sweden takes another decisive step towards economic liberalization with the Freedom of Trade and Industry Act of 1864. This law removes most remaining restrictions on establishing and operating businesses, allowing for greater competition, innovation, and economic mobility. It is a cornerstone of a burgeoning free-market economy, attracting investment and stimulating industrial growth. However, it also means less protection for smaller businesses and artisans against larger, more competitive enterprises."
+ sweden_event.11.f: "The winds of economic liberty sweep across the land, clearing the path for boundless enterprise."
+ sweden_event.11.a: "Fully Liberalize Trade!"
+
+ sweden_event.12.t: "The Municipal Reform of 1862: Local Self-Governance"
+ sweden_event.12.d: "To better manage local affairs and empower regional communities, Sweden has implemented the Municipal Reform of 1862. This comprehensive law grants significantly increased autonomy to municipalities (kommuner), allowing them greater control over local taxation, public services, and infrastructure development, independent of central government oversight. This decentralization fosters local initiative and responsiveness, but it also means greater variance in local services and may lead to disparities between wealthier and poorer regions."
+ sweden_event.12.f: "Power descends to the local hearths, allowing communities to forge their own destinies."
+ sweden_event.12.a: "Strengthen Local Autonomy!"
+
+ sweden_event.13.t: "Legalization of Trade Unions 1889: Rights for Workers"
+ sweden_event.13.d: "After decades of informal organizing and often contentious industrial disputes, the Riksdag has finally passed legislation in 1889 officially legalizing trade unions. This landmark act grants workers the right to form and join unions, collectively bargain with employers, and conduct peaceful strikes without facing legal penalties. This is a monumental victory for the Proletariat and the burgeoning labor movement, giving them a powerful voice in their working conditions and wages, though it will undoubtedly increase pressure on industrial employers and alter the power dynamics in the workplace."
+ sweden_event.13.f: "The workers' voices, once isolated, now rise in a legally sanctioned chorus of collective demand."
+ sweden_event.13.a: "Recognize Workers' Rights!"
+
+ sweden_event.14.t: "The Old-Age Pension Law of 1913: A Pioneer in Social Security"
+ sweden_event.14.d: "Sweden stands on the cusp of pioneering comprehensive social security with the adoption of the Old-Age Pension Law of 1913. This groundbreaking legislation establishes a national system of old-age pensions, providing financial support for the elderly regardless of their previous income or social status. This progressive step aims to alleviate poverty among the aged and provide a safety net for all citizens in their later years. While it sets a new standard for social welfare, it necessitates significant ongoing state funding and marks a substantial expansion of government responsibility for its citizens' well-being."
+ sweden_event.14.f: "The promise of dignity in old age shines bright, a beacon of a compassionate and forward-looking nation."
+ sweden_event.14.a: "Enact the National Pension!"
+
+ sweden_event.15.t: "The Homestead Act (1888): Encouraging Internal Migration"
+ sweden_event.15.d: "To populate sparsely settled northern regions and provide opportunities for landless rural Pops, Sweden has adopted a version of the Homestead Act in 1888. This law offers free or low-cost Crown land to settlers willing to develop and cultivate it for a specified period. The aim is to boost agricultural output in new areas, reduce internal migration to overcrowded cities, and stem the flow of emigration. While promising new opportunities, it requires significant investment in infrastructure to support these new settlements and challenges traditional land ownership."
+ sweden_event.15.f: "The axe rings out in the northern wilderness, a testament to the promise of new lands."
+ sweden_event.15.a: "Open Up the Frontiers!"
+
+ sweden_event.16.t: "The Women's Suffrage Act (1919-1921): Full Political Equality"
+ sweden_event.16.d: "After decades of tireless campaigning by the women's suffrage movement, supported by liberal and social democratic parties, the Riksdag has finally passed comprehensive legislation granting universal suffrage to women. This momentous act establishes full political equality between men and women, allowing all adult female citizens to vote and stand for election. It marks a profound transformation of Sweden's political landscape, doubling the electorate and bringing new perspectives to governance, solidifying Sweden as a leading nation in democratic rights."
+ sweden_event.16.f: "The ballot box welcomes all, as the voices of half the nation find their rightful place in democracy."
+ sweden_event.16.a: "Enact Women's Universal Suffrage!"
+
+ sweden_event.17.t: "The Right to Strike and Lockout Act (1906): Labor's New Power"
+ sweden_event.17.d: "Building on the legalization of trade unions, the Riksdag has passed a pivotal law in 1906 formally recognizing the right to strike for workers and the right to lockout for employers. This act establishes a legal framework for industrial disputes, acknowledging these as legitimate tools in labor relations. While it doesn't solve all conflicts, it represents a significant step towards codifying industrial rights and responsibilities, empowering both labor and capital within a defined legal system and contributing to a more stable, albeit sometimes volatile, industrial landscape."
+ sweden_event.17.f: "The scales of industrial power tilt, balancing the rights of labor and capital under the law."
+ sweden_event.17.a: "Codify Strike & Lockout Rights!"
+
+ sweden_event.18.t: "The 'Folkskola' Revisions (Early 20th Century): Deepening Education"
+ sweden_event.18.d: "Building on the foundation of the 1842 Parish School Ordinance, further reforms in the early 20th century have deepened the scope and quality of the 'Folkskola' (primary public school system). These revisions introduce longer school years, expanded curricula, and improved teacher training, aiming to provide a more thorough and equitable education for all. This continuous investment in human capital is vital for national competitiveness and social mobility, fostering a highly skilled and adaptable workforce for the modern age."
+ sweden_event.18.f: "The well of knowledge grows deeper, nurturing a more profound wisdom for every Swedish child."
+ sweden_event.18.a: "For The Future"
+

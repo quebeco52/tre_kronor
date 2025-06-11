@@ -54,7 +54,7 @@ glasriket_je = {
 	weight = 100
 }
 
-timber_boom_je = {
+sundsvall_timber_je = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_internal_affairs
 
@@ -69,7 +69,16 @@ timber_boom_je = {
 		    any_scope_state = {
 				any_scope_building = {
 					is_building_type = building_logging_camp
-					level >= 5
+					level >= 6
+					occupancy > 0.50
+				}
+			}
+		}
+		s:STATE_NORRLAND = {
+		    any_scope_state = {
+				any_scope_building = {
+					is_building_type = building_furniture_manufacturies
+					level >= 1
 					occupancy > 0.50
 				}
 			}

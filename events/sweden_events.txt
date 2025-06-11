@@ -255,7 +255,7 @@ sweden_event.6 = {
 
 	trigger = {
 		country_has_primary_culture = cu:swedish
-		has_technology_researched = camera
+		has_technology_researched = film
 		NOT = {
 			has_variable = var_event_6
 		}
@@ -270,6 +270,43 @@ sweden_event.6 = {
 		default_option = yes
 		add_modifier = {
 			name = stockholm_exhibition_modi
+			years = 10
+		}
+	}
+}
+
+sweden_event.7 = {
+	type = country_event
+
+	title = sweden_event.7.t
+	desc = sweden_event.7.d
+	flavor = sweden_event.7.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		country_has_primary_culture = cu:swedish
+		has_technology_researched = improved_fertilizer
+		NOT = {
+			has_variable = var_event_7
+		}
+	}
+
+	immediate = {
+		set_variable = var_event_7
+	}
+
+	option = {
+		name = sweden_event.7.a
+		default_option = yes
+		add_modifier = {
+			name = matchstick_boom_modi
 			years = 10
 		}
 	}

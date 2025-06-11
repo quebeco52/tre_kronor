@@ -161,3 +161,9 @@
  sweden_event.6.f: "The grand pavilions rise, filled with the hum of machinery and the vibrant hues of art, echoing a nation's proud declaration of progress and ambition."
  sweden_event.6.a: "Open Our Doors to the World!"
  stockholm_exhibition_modi: "Stockholm Exhibition"
+
+ sweden_event.7.t: "The Tinderbox Nation: Swedish Match Dominance"
+ sweden_event.7.d: "From humble workshops to sprawling factories, the Swedish matchstick industry is experiencing an unprecedented boom. Driven by innovative production methods, superior safety standards (especially the 'safety match' invention), and aggressive entrepreneurship, Swedish matches are rapidly gaining a global reputation for quality and reliability. Companies like Jönköpings Tändsticksfabrik are leading the charge, their products igniting markets across continents. This success promises to significantly boost light industry, create numerous jobs, and enhance Sweden's export revenue, cementing our reputation as a nation of ingenuity."
+ sweden_event.7.f: "A flicker of genius ignites an industrial fire, spreading Swedish innovation across the world."
+ sweden_event.7.a: "Capitalize on Our Advantage!"
+ matchstick_boom_modi: "Swedish Matchstick Supremacy"

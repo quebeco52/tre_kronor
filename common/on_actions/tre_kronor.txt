@@ -6,5 +6,6 @@
         sweden_event.4
         sweden_event.5
         sweden_event.6
+        sweden_event.7
     }
 }

@@ -1,7 +1,7 @@
 ﻿namespace = sweden_event_je
 
 sweden_event_je.1 = {
-	type = state_event
+	type = country_event
 
 	title = sweden_event_je.1.t
 	desc = sweden_event_je.1.d
@@ -31,6 +31,7 @@ sweden_event_je.1 = {
 				save_scope_as = svea_state
 			}
 		}
+		set_variable = mortala_verkstad
 	}
 
 	placement = scope:svea_state
@@ -237,37 +238,37 @@ sweden_event_je.5 = {
 	}
 }
 
-sweden_event_je.6 = {
-	type = country_event
+# sweden_event_je.6 = {
+# 	type = country_event
 
-	title = sweden_event_je.6.t
-	desc = sweden_event_je.6.d
-	flavor = sweden_event_je.6.f
+# 	title = sweden_event_je.6.t
+# 	desc = sweden_event_je.6.d
+# 	flavor = sweden_event_je.6.f
 
-	event_image = {
-		video = "europenorthamerica_art_gallery"
-	}
+# 	event_image = {
+# 		video = "europenorthamerica_art_gallery"
+# 	}
 
-	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+# 	icon = "gfx/interface/icons/event_icons/event_trade.dds"
 
-	duration = 3
+# 	duration = 3
 
-	trigger = {
+# 	trigger = {
 		
-	}
+# 	}
 
-	immediate = {
-	}
+# 	immediate = {
+# 	}
 
-	option = {
-		name = sweden_event_je.6.a
-		default_option = yes
-		add_modifier = { 
-			name = nobel_dynamite_modi
-			years = 10
-	}
-	}
-}
+# 	option = {
+# 		name = sweden_event_je.6.a
+# 		default_option = yes
+# 		add_modifier = { 
+# 			name = nobel_dynamite_modi
+# 			years = 10
+# 	}
+# 	}
+# }
 
 sweden_event_je.7 = {
 	type = country_event
@@ -373,37 +374,37 @@ sweden_event_je.9 = {
 	}
 }
 
-sweden_event_je.10 = {
-	type = country_event
+# sweden_event_je.10 = {
+# 	type = country_event
 
-	title = sweden_event_je.10.t
-	desc = sweden_event_je.10.d
-	flavor = sweden_event_je.10.f
+# 	title = sweden_event_je.10.t
+# 	desc = sweden_event_je.10.d
+# 	flavor = sweden_event_je.10.f
 
-	event_image = {
-		video = "europenorthamerica_capitalists_meeting"
-	}
+# 	event_image = {
+# 		video = "europenorthamerica_capitalists_meeting"
+# 	}
 
-	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+# 	icon = "gfx/interface/icons/event_icons/event_trade.dds"
 
-	duration = 3
+# 	duration = 3
 
-	trigger = {
+# 	trigger = {
 		
-	}
+# 	}
 
-	immediate = {
-	}
+# 	immediate = {
+# 	}
 
-	option = {
-		name = sweden_event_je.10.a
-		default_option = yes
-		add_modifier = {
-			name = stockholm_exhibition_modi
-			years = 10
-		}
-	}
-}
+# 	option = {
+# 		name = sweden_event_je.10.a
+# 		default_option = yes
+# 		add_modifier = {
+# 			name = stockholm_exhibition_modi
+# 			years = 10
+# 		}
+# 	}
+# }
 
 sweden_event_je.11 = {
 	type = state_event
@@ -455,38 +456,38 @@ sweden_event_je.11 = {
 	}
 }
 
-sweden_event_je.12 = {
-	type = country_event
+# sweden_event_je.12 = {
+# 	type = country_event
 
-	title = sweden_event_je.12.t
-	desc = sweden_event_je.12.d
-	flavor = sweden_event_je.12.f
+# 	title = sweden_event_je.12.t
+# 	desc = sweden_event_je.12.d
+# 	flavor = sweden_event_je.12.f
 
-	event_image = {
-		video = "europenorthamerica_capitalists_meeting"
-	}
+# 	event_image = {
+# 		video = "europenorthamerica_capitalists_meeting"
+# 	}
 
-	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+# 	icon = "gfx/interface/icons/event_icons/event_trade.dds"
 
-	duration = 3
+# 	duration = 3
 
-	trigger = {
+# 	trigger = {
 		
-	}
+# 	}
 
-	immediate = {
+# 	immediate = {
 
-	}
+# 	}
 
-	option = {
-		name = sweden_event_je.12.a
-		default_option = yes
-		add_modifier = {
-			name = trapatron_modi
-			years = 10
-		}
-	}
-}
+# 	option = {
+# 		name = sweden_event_je.12.a
+# 		default_option = yes
+# 		add_modifier = {
+# 			name = trapatron_modi
+# 			years = 10
+# 		}
+# 	}
+# }
 
 sweden_event_je.13 = {
 	type = state_event
@@ -616,5 +617,6 @@ sweden_event_je.15 = {
 		}
 	}
 }
+
 
 

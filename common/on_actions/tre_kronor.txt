@@ -1,0 +1,10 @@
+﻿on_monthly_pulse_country = {
+    events = {
+        sweden_event.1
+        sweden_event.2
+        sweden_event.3
+        sweden_event.4
+        sweden_event.5
+        sweden_event.6
+    }
+}

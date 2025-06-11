@@ -1,0 +1,276 @@
+﻿namespace = sweden_event
+
+sweden_event.1 = {
+	type = country_event
+
+	title = sweden_event.1.t
+	desc = sweden_event.1.d
+	flavor = sweden_event.1.f
+
+	event_image = {
+		video = "europenorthamerica_art_gallery"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		country_has_primary_culture = cu:swedish
+		has_technology_researched = dynamite
+		NOT = {
+			has_variable = var_event_1
+		}
+	}
+
+	immediate = {
+		set_variable = var_event_1
+	}
+
+	option = {
+		name = sweden_event.1.a
+		default_option = yes
+		add_modifier = { 
+			name = nobel_dynamite_modi
+			years = 10
+	}
+	}
+}
+
+sweden_event.2 = {
+	type = country_event
+
+	title = sweden_event.2.t
+	desc = sweden_event.2.d
+	flavor = sweden_event.2.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+
+	trigger = {
+		country_has_primary_culture = cu:swedish
+		has_variable = mortala_verkstad
+		has_technology_researched = labor_movement
+		NOT = {
+			has_variable = var_event_2
+		}
+	}
+
+	immediate = {
+        S:STATE_SVEALAND = {
+			random_scope_state = {
+				limit = {
+					owner = {
+						c:SWE = THIS
+					}
+				}
+				save_scope_as = svea_state
+			}
+		}
+		set_variable = var_event_2
+	}
+
+	placement = scope:svea_state
+
+	option = {
+		name = sweden_event.2.a
+		default_option = yes
+		scope:svea_state = {
+		    add_modifier = {
+				name = motala_strike_modi
+				months = 6
+			}
+			add_loyalists = {
+				value = 0.1
+				pop_type = laborers
+			}
+		}
+	}
+
+	option = {
+		name = sweden_event.2.b
+		scope:svea_state = {
+		    add_modifier = {
+				name = motala_strike_modi
+				months = 3
+			}
+			add_radicals = {
+				value = 0.1
+				pop_type = laborers
+			}
+		}
+	}
+}
+
+sweden_event.3 = {
+	type = country_event
+
+	title = sweden_event.3.t
+	desc = sweden_event.3.d
+	flavor = sweden_event.3.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		country_has_primary_culture = cu:swedish
+		has_technology_researched = mutual_funds
+		NOT = {
+			has_variable = var_event_3
+		}
+	}
+
+	immediate = {
+		set_variable = var_event_3
+	}
+
+	option = {
+		name = sweden_event.3.a
+		default_option = yes
+		add_modifier = {
+			name = trapatron_modi
+			years = 10
+		}
+	}
+}
+
+sweden_event.4 = {
+	type = country_event
+
+	title = sweden_event.4.t
+	desc = sweden_event.4.d
+	flavor = sweden_event.4.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		has_technology_researched = fractional_distillation
+		NOT = {
+			has_variable = var_event_4
+		}
+	}
+
+	immediate = {
+		set_variable = var_event_4
+	}
+
+	option = {
+		name = sweden_event.4.a
+		default_option = yes
+		add_modifier = {
+			name = temperance_revival_modi
+			years = 3
+		}
+			add_radicals = {
+			value = 0.05
+		}
+	}
+	option = {
+		name = sweden_event.4.b
+		add_radicals = {
+			value = 0.1
+		}
+
+	}
+}
+
+sweden_event.5 = {
+	type = country_event
+
+	title = sweden_event.5.t
+	desc = sweden_event.5.d
+	flavor = sweden_event.5.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		country_has_primary_culture = cu:swedish
+		NOT = {
+			has_law = law_type:law_religious_schools
+		}
+		NOT = {
+			has_variable = var_event_5
+		}
+	}
+
+	immediate = {
+		set_variable = var_event_5
+	}
+
+	option = {
+		name = sweden_event.5.a
+		default_option = yes
+		add_modifier = {
+			name = lasare_movement_modi
+			years = 4
+	    }
+	}
+	option = {
+		name = sweden_event.5.b
+			add_modifier = {
+			name = church_support_modi
+			years = 4
+	    }
+
+	}
+}
+
+sweden_event.6 = {
+	type = country_event
+
+	title = sweden_event.6.t
+	desc = sweden_event.6.d
+	flavor = sweden_event.6.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	duration = 3
+
+	trigger = {
+		country_has_primary_culture = cu:swedish
+		has_technology_researched = camera
+		NOT = {
+			has_variable = var_event_6
+		}
+	}
+
+	immediate = {
+		set_variable = var_event_6
+	}
+
+	option = {
+		name = sweden_event.6.a
+		default_option = yes
+		add_modifier = {
+			name = stockholm_exhibition_modi
+			years = 10
+		}
+	}
+}

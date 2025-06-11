@@ -135,22 +135,22 @@ bergslagen_revival_je = {
 	weight = 100
 }
 
-nobel_dynamite_je = {
-	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
-	group = je_group_internal_affairs
+# nobel_dynamite_je = {
+# 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+# 	group = je_group_internal_affairs
 
-	is_shown_when_inactive = {
-		country_has_primary_culture = cu:swedish
-	}
+# 	is_shown_when_inactive = {
+# 		country_has_primary_culture = cu:swedish
+# 	}
 
-	complete = {
-		has_technology_researched = dynamite
-	}
-	on_complete = {
-		trigger_event = { id = sweden_event_je.6 }
-	}
-	weight = 100
-}
+# 	complete = {
+# 		has_technology_researched = dynamite
+# 	}
+# 	on_complete = {
+# 		trigger_event = { id = sweden_event_je.6 }
+# 	}
+# 	weight = 100
+# }
 
 folkhemmet_je = {
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
@@ -220,32 +220,29 @@ swedish_timber_export_je = {
 	
 	on_complete = {
 		trigger_event = { id = sweden_event_je.9 }
-		add_journal_entry = {
-			type = trapatron_je
-		}
 	}
 
 	
 	weight = 100
 }
 
-stockholm_exhibition_je = {
-	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
-	group = je_group_internal_affairs
+# stockholm_exhibition_je = {
+# 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+# 	group = je_group_internal_affairs
 
-	is_shown_when_inactive = {
-		country_has_primary_culture = cu:swedish
-		has_technology_researched = realism
-	}
+# 	is_shown_when_inactive = {
+# 		country_has_primary_culture = cu:swedish
+# 		has_technology_researched = realism
+# 	}
 
-	complete = {
-		has_technology_researched = camera
-	}
-	on_complete = {
-		trigger_event = { id = sweden_event_je.10 }
-	}
-	weight = 100
-}
+# 	complete = {
+# 		has_technology_researched = camera
+# 	}
+# 	on_complete = {
+# 		trigger_event = { id = sweden_event_je.10 }
+# 	}
+# 	weight = 100
+# }
 
 malmberget_discovery_je = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
@@ -276,23 +273,23 @@ malmberget_discovery_je = {
 	weight = 100
 }
 
-trapatron_je = {
-	icon = "gfx/interface/icons/event_icons/event_industry.dds"
-	group = je_group_internal_affairs
+# trapatron_je = {
+# 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+# 	group = je_group_internal_affairs
 
-	is_shown_when_inactive = {
+# 	is_shown_when_inactive = {
 
-	}
+# 	}
 
-	complete = {
-		has_technology_researched = mutual_funds
-	}
+# 	complete = {
+# 		has_technology_researched = mutual_funds
+# 	}
 	
-	on_complete = {
-		trigger_event = { id = sweden_event_je.12 }
-	}
-	weight = 100
-}
+# 	on_complete = {
+# 		trigger_event = { id = sweden_event_je.12 }
+# 	}
+# 	weight = 100
+# }
 
 gothenburg_port_expansion_je = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"

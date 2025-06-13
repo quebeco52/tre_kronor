@@ -1,11 +1,11 @@
-﻿namespace = sweden_event_je
+﻿namespace = sweden_flavor
 
-sweden_event_je.1 = {
+sweden_flavor.7 = {
 	type = country_event
 
-	title = sweden_event_je.1.t
-	desc = sweden_event_je.1.d
-	flavor = sweden_event_je.1.f
+	title = sweden_flavor.7.t
+	desc = sweden_flavor.7.d
+	flavor = sweden_flavor.7.f
 
 	event_image = {
 		video = "europenorthamerica_capitalists_meeting"
@@ -37,7 +37,7 @@ sweden_event_je.1 = {
 	placement = scope:svea_state
 
 	option = {
-		name = sweden_event_je.1.a
+		name = sweden_flavor.7.a
 		default_option = yes
 		scope:svea_state = {
 		    add_modifier = {
@@ -48,12 +48,12 @@ sweden_event_je.1 = {
 	}
 }
 
-sweden_event_je.2 = {
+sweden_flavor.8 = {
 	type = state_event
 
-	title = sweden_event_je.2.t
-	desc = sweden_event_je.2.d
-	flavor = sweden_event_je.2.f
+	title = sweden_flavor.8.t
+	desc = sweden_flavor.8.d
+	flavor = sweden_flavor.8.f
 
 	event_image = {
 		video = "europenorthamerica_capitalists_meeting"
@@ -83,7 +83,7 @@ sweden_event_je.2 = {
 	placement = scope:gotaland_state
 
 	option = {
-		name = sweden_event_je.2.a
+		name = sweden_flavor.8.a
 		default_option = yes
 		scope:gotaland_state = {
 		    add_modifier = {
@@ -94,12 +94,12 @@ sweden_event_je.2 = {
 	}
 }
 
-sweden_event_je.3 = {
+sweden_flavor.9 = {
 	type = state_event
 
-	title = sweden_event_je.3.t
-	desc = sweden_event_je.3.d
-	flavor = sweden_event_je.3.f
+	title = sweden_flavor.9.t
+	desc = sweden_flavor.9.d
+	flavor = sweden_flavor.9.f
 
 	event_image = {
 		video = "europenorthamerica_capitalists_meeting"
@@ -129,7 +129,7 @@ sweden_event_je.3 = {
 	placement = scope:norrland_state
 
 	option = {
-		name = sweden_event_je.3.a
+		name = sweden_flavor.9.a
 		default_option = yes
 		scope:norrland_state = {
 		    add_modifier = sundsvall_timber_modi
@@ -138,12 +138,12 @@ sweden_event_je.3 = {
 	}
 }
 
-sweden_event_je.4 = {
+sweden_flavor.10 = {
 	type = country_event
 
-	title = sweden_event_je.4.t
-	desc = sweden_event_je.4.d
-	flavor = sweden_event_je.4.f
+	title = sweden_flavor.10.t
+	desc = sweden_flavor.10.d
+	flavor = sweden_flavor.10.f
 
 	event_image = {
 		video = "europenorthamerica_before_the_battle"
@@ -162,7 +162,7 @@ sweden_event_je.4 = {
 	}
 
 	option = {
-		name = sweden_event_je.4.a
+		name = sweden_flavor.10.a
 		default_option = yes	
 		add_modifier = {
 			name = retake_finland_modi
@@ -190,12 +190,12 @@ sweden_event_je.4 = {
 	}
 }
 
-sweden_event_je.5 = {
+sweden_flavor.11 = {
 	type = state_event
 
-	title = sweden_event_je.5.t
-	desc = sweden_event_je.5.d
-	flavor = sweden_event_je.5.f
+	title = sweden_flavor.11.t
+	desc = sweden_flavor.11.d
+	flavor = sweden_flavor.11.f
 
 	event_image = {
 		video = "europenorthamerica_capitalists_meeting"
@@ -225,7 +225,7 @@ sweden_event_je.5 = {
 	placement = scope:svea_state
 
 	option = {
-		name = sweden_event_je.5.a
+		name = sweden_flavor.11.a
 		default_option = yes
 		scope:svea_state = {
 		    add_modifier = {
@@ -236,12 +236,12 @@ sweden_event_je.5 = {
 	}
 }
 
-# sweden_event_je.6 = {
+# sweden_flavor.12 = {
 # 	type = country_event
 
-# 	title = sweden_event_je.6.t
-# 	desc = sweden_event_je.6.d
-# 	flavor = sweden_event_je.6.f
+# 	title = sweden_flavor.12.t
+# 	desc = sweden_flavor.12.d
+# 	flavor = sweden_flavor.12.f
 
 # 	event_image = {
 # 		video = "europenorthamerica_art_gallery"
@@ -259,7 +259,7 @@ sweden_event_je.5 = {
 # 	}
 
 # 	option = {
-# 		name = sweden_event_je.6.a
+# 		name = sweden_flavor.12.a
 # 		default_option = yes
 # 		add_modifier = { 
 # 			name = nobel_dynamite_modi
@@ -268,12 +268,12 @@ sweden_event_je.5 = {
 # 	}
 # }
 
-sweden_event_je.7 = {
+sweden_flavor.13 = {
 	type = country_event
 
-	title = sweden_event_je.7.t
-	desc = sweden_event_je.7.d
-	flavor = sweden_event_je.7.f
+	title = sweden_flavor.13.t
+	desc = sweden_flavor.13.d
+	flavor = sweden_flavor.13.f
 
 	event_image = {
 		video = "europenorthamerica_london_center"
@@ -291,7 +291,7 @@ sweden_event_je.7 = {
 	}
 
 	option = {
-		name = sweden_event_je.7.a
+		name = sweden_flavor.13.a
 		default_option = yes
 		add_modifier = folkhemmet_modi
 		add_loyalists = {
@@ -300,12 +300,12 @@ sweden_event_je.7 = {
 	}
 }
 
-sweden_event_je.8 = {
+sweden_flavor.14 = {
 	type = country_event
 
-	title = sweden_event_je.8.t
-	desc = sweden_event_je.8.d
-	flavor = sweden_event_je.8.f
+	title = sweden_flavor.14.t
+	desc = sweden_flavor.14.d
+	flavor = sweden_flavor.14.f
 
 	event_image = {
 		video = "europenorthamerica_rich_and_poor"
@@ -323,7 +323,7 @@ sweden_event_je.8 = {
 	}
 
 	option = {
-		name = sweden_event_je.8.a
+		name = sweden_flavor.14.a
 		default_option = yes
 		add_modifier = {
 			name = abolish_estates_modi
@@ -332,12 +332,12 @@ sweden_event_je.8 = {
 	}
 }
 
-sweden_event_je.9 = {
+sweden_flavor.15 = {
 	type = country_event
 
-	title = sweden_event_je.9.t
-	desc = sweden_event_je.9.d
-	flavor = sweden_event_je.9.f
+	title = sweden_flavor.15.t
+	desc = sweden_flavor.15.d
+	flavor = sweden_flavor.15.f
 
 	event_image = {
 		video = "europenorthamerica_capitalists_meeting"
@@ -355,7 +355,7 @@ sweden_event_je.9 = {
 	}
 
 	option = {
-		name = sweden_event_je.9.a
+		name = sweden_flavor.15.a
 		default_option = yes
 		add_modifier = {
 			name = timber_export_modi
@@ -364,7 +364,7 @@ sweden_event_je.9 = {
 	}
 
 		option = {
-		name = sweden_event_je.9.b
+		name = sweden_flavor.15.b
 		add_modifier = {
 			name = increased_furniture_manufactories_modi
 			years = 3
@@ -372,12 +372,12 @@ sweden_event_je.9 = {
 	}
 }
 
-# sweden_event_je.10 = {
+# sweden_flavor.16 = {
 # 	type = country_event
 
-# 	title = sweden_event_je.10.t
-# 	desc = sweden_event_je.10.d
-# 	flavor = sweden_event_je.10.f
+# 	title = sweden_flavor.16.t
+# 	desc = sweden_flavor.16.d
+# 	flavor = sweden_flavor.16.f
 
 # 	event_image = {
 # 		video = "europenorthamerica_capitalists_meeting"
@@ -395,7 +395,7 @@ sweden_event_je.9 = {
 # 	}
 
 # 	option = {
-# 		name = sweden_event_je.10.a
+# 		name = sweden_flavor.16.a
 # 		default_option = yes
 # 		add_modifier = {
 # 			name = stockholm_exhibition_modi
@@ -404,12 +404,12 @@ sweden_event_je.9 = {
 # 	}
 # }
 
-sweden_event_je.11 = {
+sweden_flavor.17 = {
 	type = state_event
 
-	title = sweden_event_je.11.t
-	desc = sweden_event_je.11.d
-	flavor = sweden_event_je.11.f
+	title = sweden_flavor.17.t
+	desc = sweden_flavor.17.d
+	flavor = sweden_flavor.17.f
 
 	event_image = {
 		video = "europenorthamerica_capitalists_meeting"
@@ -439,7 +439,7 @@ sweden_event_je.11 = {
 	placement = scope:norrland_state
 
 	option = {
-		name = sweden_event_je.11.a
+		name = sweden_flavor.17.a
 		default_option = yes
 		scope:norrland_state = {
 		    add_modifier = {
@@ -454,12 +454,12 @@ sweden_event_je.11 = {
 	}
 }
 
-# sweden_event_je.12 = {
+# sweden_flavor.18 = {
 # 	type = country_event
 
-# 	title = sweden_event_je.12.t
-# 	desc = sweden_event_je.12.d
-# 	flavor = sweden_event_je.12.f
+# 	title = sweden_flavor.18.t
+# 	desc = sweden_flavor.18.d
+# 	flavor = sweden_flavor.18.f
 
 # 	event_image = {
 # 		video = "europenorthamerica_capitalists_meeting"
@@ -478,7 +478,7 @@ sweden_event_je.11 = {
 # 	}
 
 # 	option = {
-# 		name = sweden_event_je.12.a
+# 		name = sweden_flavor.18.a
 # 		default_option = yes
 # 		add_modifier = {
 # 			name = trapatron_modi
@@ -487,12 +487,12 @@ sweden_event_je.11 = {
 # 	}
 # }
 
-sweden_event_je.13 = {
+sweden_flavor.19 = {
 	type = state_event
 
-	title = sweden_event_je.13.t
-	desc = sweden_event_je.13.d
-	flavor = sweden_event_je.13.f
+	title = sweden_flavor.19.t
+	desc = sweden_flavor.19.d
+	flavor = sweden_flavor.19.f
 
 	event_image = {
 		video = "europenorthamerica_london_center"
@@ -522,7 +522,7 @@ sweden_event_je.13 = {
 	placement = scope:gotaland_state
 
 	option = {
-		name = sweden_event_je.13.a
+		name = sweden_flavor.19.a
 		default_option = yes
 		scope:gotaland_state = {
 		    add_modifier = gothenburg_modi
@@ -530,12 +530,12 @@ sweden_event_je.13 = {
 	}
 }
 
-sweden_event_je.14 = {
+sweden_flavor.20 = {
 	type = state_event
 
-	title = sweden_event_je.14.t
-	desc = sweden_event_je.14.d
-	flavor = sweden_event_je.14.f
+	title = sweden_flavor.20.t
+	desc = sweden_flavor.20.d
+	flavor = sweden_flavor.20.f
 
 	event_image = {
 		video = "europenorthamerica_london_center"
@@ -565,7 +565,7 @@ sweden_event_je.14 = {
 	placement = scope:scania_state
 
 	option = {
-		name = sweden_event_je.14.a
+		name = sweden_flavor.20.a
 		default_option = yes
 		scope:scania_state = {
 		    add_modifier = malmo_modi
@@ -573,12 +573,12 @@ sweden_event_je.14 = {
 	}
 }
 
-sweden_event_je.15 = {
+sweden_flavor.21 = {
 	type = state_event
 
-	title = sweden_event_je.15.t
-	desc = sweden_event_je.15.d
-	flavor = sweden_event_je.15.f
+	title = sweden_flavor.21.t
+	desc = sweden_flavor.21.d
+	flavor = sweden_flavor.21.f
 
 	event_image = {
 		video = "europenorthamerica_london_center"
@@ -608,7 +608,7 @@ sweden_event_je.15 = {
 	placement = scope:svea_state
 
 	option = {
-		name = sweden_event_je.15.a
+		name = sweden_flavor.21.a
 		default_option = yes
 		scope:svea_state = {
 		    add_modifier = stockholm_modi

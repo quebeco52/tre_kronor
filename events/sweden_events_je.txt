@@ -41,7 +41,7 @@ sweden_flavor.7 = {
 		default_option = yes
 		scope:svea_state = {
 		    add_modifier = {
-				name = mortala_verkstad_modi
+				name = sweden_mortala_verkstad
 				years = 20
 			}
 		}
@@ -87,7 +87,7 @@ sweden_flavor.8 = {
 		default_option = yes
 		scope:gotaland_state = {
 		    add_modifier = {
-				name = good_glass_quality_modi
+				name = sweden_good_glass_quality
 				years = 20
 			}
 		}
@@ -132,7 +132,7 @@ sweden_flavor.9 = {
 		name = sweden_flavor.9.a
 		default_option = yes
 		scope:norrland_state = {
-		    add_modifier = sundsvall_timber_modi
+		    add_modifier = sweden_sundsvall_timber
 			
 		}
 	}
@@ -165,7 +165,7 @@ sweden_flavor.10 = {
 		name = sweden_flavor.10.a
 		default_option = yes	
 		add_modifier = {
-			name = retake_finland_modi
+			name = sweden_retake_finland
 			years = 10
 		}
 		add_loyalists = {
@@ -229,7 +229,7 @@ sweden_flavor.11 = {
 		default_option = yes
 		scope:svea_state = {
 		    add_modifier = {
-				name = iron_production_modi
+				name = sweden_iron_production
 				years = 10
 			}
 		}
@@ -262,7 +262,7 @@ sweden_flavor.11 = {
 # 		name = sweden_flavor.12.a
 # 		default_option = yes
 # 		add_modifier = { 
-# 			name = nobel_dynamite_modi
+# 			name = sweden_nobel_dynamite
 # 			years = 10
 # 	}
 # 	}
@@ -293,7 +293,7 @@ sweden_flavor.13 = {
 	option = {
 		name = sweden_flavor.13.a
 		default_option = yes
-		add_modifier = folkhemmet_modi
+		add_modifier = sweden_folkhemmet
 		add_loyalists = {
 			value = 0.1
 		}
@@ -326,7 +326,7 @@ sweden_flavor.14 = {
 		name = sweden_flavor.14.a
 		default_option = yes
 		add_modifier = {
-			name = abolish_estates_modi
+			name = sweden_abolish_estates
 			years = 5
 		}
 	}
@@ -358,7 +358,7 @@ sweden_flavor.15 = {
 		name = sweden_flavor.15.a
 		default_option = yes
 		add_modifier = {
-			name = timber_export_modi
+			name = sweden_timber_export
 			years = 3
 		}
 	}
@@ -366,7 +366,7 @@ sweden_flavor.15 = {
 		option = {
 		name = sweden_flavor.15.b
 		add_modifier = {
-			name = increased_furniture_manufactories_modi
+			name = sweden_increased_furniture_manufactories
 			years = 3
 		}
 	}
@@ -398,7 +398,7 @@ sweden_flavor.15 = {
 # 		name = sweden_flavor.16.a
 # 		default_option = yes
 # 		add_modifier = {
-# 			name = stockholm_exhibition_modi
+# 			name = sweden_stockholm_exhibition
 # 			years = 10
 # 		}
 # 	}
@@ -443,11 +443,11 @@ sweden_flavor.17 = {
 		default_option = yes
 		scope:norrland_state = {
 		    add_modifier = {
-				name = iron_production_modi
+				name = sweden_iron_production
 				years = 5
 			}
 			add_modifier = {
-				name = railway_development_modi
+				name = sweden_railway_development
 				years = 3
 			}
 		}
@@ -481,7 +481,7 @@ sweden_flavor.17 = {
 # 		name = sweden_flavor.18.a
 # 		default_option = yes
 # 		add_modifier = {
-# 			name = trapatron_modi
+# 			name = sweden_trapatron_modi
 # 			years = 5
 # 		}
 # 	}
@@ -525,7 +525,7 @@ sweden_flavor.19 = {
 		name = sweden_flavor.19.a
 		default_option = yes
 		scope:gotaland_state = {
-		    add_modifier = gothenburg_modi
+		    add_modifier = sweden_gothenburg
 		}
 	}
 }
@@ -568,7 +568,7 @@ sweden_flavor.20 = {
 		name = sweden_flavor.20.a
 		default_option = yes
 		scope:scania_state = {
-		    add_modifier = malmo_modi
+		    add_modifier = sweden_malmo
 		}
 	}
 }
@@ -611,7 +611,7 @@ sweden_flavor.21 = {
 		name = sweden_flavor.21.a
 		default_option = yes
 		scope:svea_state = {
-		    add_modifier = stockholm_modi
+		    add_modifier = sweden_stockholm
 		}
 	}
 }

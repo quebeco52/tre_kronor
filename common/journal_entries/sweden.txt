@@ -1,10 +1,14 @@
-﻿mortala_verkstad_je = {
+﻿swedish_mortala_verkstad = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
 		country_has_primary_culture = cu:swedish
 		owns_entire_state_region = STATE_SVEALAND
+	}
+
+	possible = {
+		has_technology_researched = mechanical_tools
 	}
 
 	complete = {
@@ -21,18 +25,22 @@
 	}
 	
 	on_complete = {
-		trigger_event = { id = sweden_event_je.1 }
+		trigger_event = { id = sweden_flavor.7 }
 	}
 	weight = 100
 }
 
-glasriket_je = {
+swedish_glasriket = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
 		country_has_primary_culture = cu:swedish
 		owns_entire_state_region = STATE_GOTALAND
+	}
+
+	possible = {
+		has_technology_researched = crystal_glass
 	}
 
 	complete = {
@@ -49,12 +57,12 @@ glasriket_je = {
 	}
 	
 	on_complete = {
-		trigger_event = { id = sweden_event_je.2 }
+		trigger_event = { id = sweden_flavor.8 }
 	}
 	weight = 100
 }
 
-sundsvall_timber_je = {
+swedish_sundsvall_timber = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_internal_affairs
 
@@ -62,6 +70,8 @@ sundsvall_timber_je = {
 		country_has_primary_culture = cu:swedish
 		owns_entire_state_region = STATE_NORRLAND
 	}
+
+
 
 	complete = {
 		s:STATE_NORRLAND = {
@@ -85,15 +95,15 @@ sundsvall_timber_je = {
 	}
 	
 	on_complete = {
-		trigger_event = { id = sweden_event_je.3 }
+		trigger_event = { id = sweden_flavor.9 }
 		add_journal_entry = {
-			type = swedish_timber_export_je
+			type = swedish_timber_export
 		}
 	}
 	weight = 100
 }
 
-retake_finland_je = {
+swedish_retake_finland = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_foreign_affairs
 
@@ -111,17 +121,21 @@ retake_finland_je = {
 	}
 	
 	on_complete = {
-		trigger_event = { id = sweden_event_je.4 }
+		trigger_event = { id = sweden_flavor.10 }
 	}
 	weight = 100
 }
 
-bergslagen_revival_je = {
+swedish_bergslagen_revival = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
 		country_has_primary_culture = cu:swedish
+	}
+
+	possible = {
+		has_technology_researched = watertube_boiler
 	}
 
 	complete = {
@@ -138,12 +152,12 @@ bergslagen_revival_je = {
 	}
 	
 	on_complete = {
-		trigger_event = { id = sweden_event_je.5 }
+		trigger_event = { id = sweden_flavor.11 }
 	}
 	weight = 100
 }
 
-# nobel_dynamite_je = {
+# swedish_nobel_dynamite = {
 # 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 # 	group = je_group_internal_affairs
 
@@ -155,17 +169,23 @@ bergslagen_revival_je = {
 # 		has_technology_researched = dynamite
 # 	}
 # 	on_complete = {
-# 		trigger_event = { id = sweden_event_je.6 }
+# 		trigger_event = { id = sweden_flavor.12 }
 # 	}
 # 	weight = 100
 # }
 
-folkhemmet_je = {
+swedish_folkhemmet = {
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
 		country_has_primary_culture = cu:swedish
+	}
+
+	possible = {
+		NOT = {
+			has_law = law_type:law_no_social_security
+		}
 	}
 
 	complete = {
@@ -176,12 +196,12 @@ folkhemmet_je = {
 	
 	}
 	on_complete = {
-		trigger_event = { id = sweden_event_je.7 }
+		trigger_event = { id = sweden_flavor.13 }
 	}
 	weight = 100
 }
 
-abolish_estates_je = {
+swedish_abolish_estates = {
 	icon = "gfx/interface/icons/event_icons/event_election.dds"
 	group = je_group_internal_affairs
 
@@ -199,12 +219,12 @@ abolish_estates_je = {
 	
 	}
 	on_complete = {
-		trigger_event = { id = sweden_event_je.8 }
+		trigger_event = { id = sweden_flavor.14 }
 	}
 	weight = 100
 }
 
-swedish_timber_export_je = {
+swedish_timber_export = {
 	icon = "gfx/interface/icons/event_icons/event_trade.dds"
 	group = je_group_internal_affairs
 
@@ -227,14 +247,14 @@ swedish_timber_export_je = {
 
 	
 	on_complete = {
-		trigger_event = { id = sweden_event_je.9 }
+		trigger_event = { id = sweden_flavor.15 }
 	}
 
 	
 	weight = 100
 }
 
-# stockholm_exhibition_je = {
+# swedish_stockholm_exhibition = {
 # 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 # 	group = je_group_internal_affairs
 
@@ -247,18 +267,22 @@ swedish_timber_export_je = {
 # 		has_technology_researched = camera
 # 	}
 # 	on_complete = {
-# 		trigger_event = { id = sweden_event_je.10 }
+# 		trigger_event = { id = sweden_flavor.16 }
 # 	}
 # 	weight = 100
 # }
 
-malmberget_discovery_je = {
+swedish_malmberget_discovery = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_internal_affairs
 
 	is_shown_when_inactive = {
 		country_has_primary_culture = cu:swedish
 		has_technology_researched = mechanical_tools
+	}
+
+	possible = {
+		has_technology_researched = watertube_boiler
 	}
 
 	complete = {
@@ -276,12 +300,12 @@ malmberget_discovery_je = {
 	}
 	
 	on_complete = {
-		trigger_event = { id = sweden_event_je.11 }
+		trigger_event = { id = sweden_flavor.17 }
 	}
 	weight = 100
 }
 
-# trapatron_je = {
+# swedish_trapatron = {
 # 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 # 	group = je_group_internal_affairs
 
@@ -294,12 +318,12 @@ malmberget_discovery_je = {
 # 	}
 	
 # 	on_complete = {
-# 		trigger_event = { id = sweden_event_je.12 }
+# 		trigger_event = { id = sweden_flavor.18 }
 # 	}
 # 	weight = 100
 # }
 
-gothenburg_port_expansion_je = {
+swedish_gothenburg_port_expansion = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_internal_affairs
 
@@ -308,7 +332,15 @@ gothenburg_port_expansion_je = {
 	}
 
 	possible = {
-
+		has_technology_researched = railways
+		s:STATE_GOTALAND = {
+		    any_scope_state = {
+				any_scope_building = {
+					is_building_type = building_urban_center
+					level >= 4
+				}
+			}
+		}
 	}
 
 	complete = {
@@ -325,12 +357,12 @@ gothenburg_port_expansion_je = {
 	}
 	
 	on_complete = {
-		trigger_event = { id = sweden_event_je.13 }
+		trigger_event = { id = sweden_flavor.19 }
 	}
 	weight = 100
 }
 
-malmo_industrial_boom_je = {
+swedish_malmo_industrial_boom = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_internal_affairs
 
@@ -339,7 +371,15 @@ malmo_industrial_boom_je = {
 	}
 
 	possible = {
-
+		has_technology_researched = railways
+		s:STATE_SCANIA = {
+		    any_scope_state = {
+				any_scope_building = {
+					is_building_type = building_urban_center
+					level >= 4
+				}
+			}
+		}
 	}
 
 	complete = {
@@ -356,12 +396,12 @@ malmo_industrial_boom_je = {
 	}
 	
 	on_complete = {
-		trigger_event = { id = sweden_event_je.14 }
+		trigger_event = { id = sweden_flavor.20 }
 	}
 	weight = 100
 }
 
-stockholm_urban_growth_je = {
+swedish_stockholm_urban_growth = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_internal_affairs
 
@@ -370,7 +410,15 @@ stockholm_urban_growth_je = {
 	}
 
 	possible = {
-
+		has_technology_researched = railways
+		s:STATE_SVEALAND = {
+		    any_scope_state = {
+				any_scope_building = {
+					is_building_type = building_urban_center
+					level >= 8
+				}
+			}
+		}
 	}
 
 	complete = {
@@ -383,11 +431,10 @@ stockholm_urban_growth_je = {
 				}
 			}
 		}
-		
 	}
 	
 	on_complete = {
-		trigger_event = { id = sweden_event_je.15 }
+		trigger_event = { id = sweden_flavor.21 }
 	}
 	weight = 100
 }

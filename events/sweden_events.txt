@@ -31,7 +31,7 @@ sweden_event.1 = {
 		name = sweden_event.1.a
 		default_option = yes
 		add_modifier = { 
-			name = nobel_dynamite_modi
+			name = sweden_nobel_dynamite
 			years = 10
 	}
 	}
@@ -83,7 +83,7 @@ sweden_event.2 = {
 		default_option = yes
 		scope:svea_state = {
 		    add_modifier = {
-				name = motala_strike_modi
+				name = sweden_motala_strike
 				months = 6
 			}
 			add_loyalists = {
@@ -97,7 +97,7 @@ sweden_event.2 = {
 		name = sweden_event.2.b
 		scope:svea_state = {
 		    add_modifier = {
-				name = motala_strike_modi
+				name = sweden_motala_strike
 				months = 3
 			}
 			add_radicals = {
@@ -139,7 +139,7 @@ sweden_event.3 = {
 		name = sweden_event.3.a
 		default_option = yes
 		add_modifier = {
-			name = trapatron_modi
+			name = sweden_trapatron
 			years = 10
 		}
 	}
@@ -175,7 +175,7 @@ sweden_event.4 = {
 		name = sweden_event.4.a
 		default_option = yes
 		add_modifier = {
-			name = temperance_revival_modi
+			name = sweden_temperance_revival
 			years = 3
 		}
 			add_radicals = {
@@ -224,14 +224,14 @@ sweden_event.5 = {
 		name = sweden_event.5.a
 		default_option = yes
 		add_modifier = {
-			name = lasare_movement_modi
+			name = sweden_lasare_movement
 			years = 4
 	    }
 	}
 	option = {
 		name = sweden_event.5.b
 			add_modifier = {
-			name = church_support_modi
+			name = sweden_church_support
 			years = 4
 	    }
 
@@ -269,7 +269,7 @@ sweden_event.6 = {
 		name = sweden_event.6.a
 		default_option = yes
 		add_modifier = {
-			name = stockholm_exhibition_modi
+			name = sweden_stockholm_exhibition
 			years = 10
 		}
 	}
@@ -306,7 +306,7 @@ sweden_event.7 = {
 		name = sweden_event.7.a
 		default_option = yes
 		add_modifier = {
-			name = matchstick_boom_modi
+			name = sweden_matchstick_boom
 			years = 10
 		}
 	}

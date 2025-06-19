@@ -6,7 +6,7 @@
  sweden_flavor.7.d: "Born from the monumental task of constructing the Göta Canal in 1822, Motala Verkstad has grown far beyond a mere workshop. Its engineers and craftsmen, renowned for their precision and innovation, are now poised to become a vital artery of our nation's industry."
  sweden_flavor.7.f: "The clang of hammers and the hiss of steam from Motala echo across the land, a powerful heartbeat for Swedish innovation."
  sweden_flavor.7.a: "Elevate Our Industrial Might!"
- mortala_verkstad: "Motalas Industrial Prowess"
+ sweden_mortala_verkstad: "Motalas Industrial Prowess"
 
  swedish_glasriket: "The Kingdom of Glass"
  swedish_glasriket_reason: "Develop Småland's unique glassmaking traditions into a thriving industrial and artistic powerhouse, capturing both domestic and international markets."
@@ -22,7 +22,7 @@
  sweden_flavor.9.d: "Along the Selånger River and the bustling shores of the Sundsvall Bay, a new industrial center is shaping up. Sundsvall has rapidly transformed into the undeniable center of Sweden's immense timber industry, with dozens of steam-powered sawmills processing vast quantities of 'green gold' floated down from Norrland's endless forests. The sheer volume of lumber leaving its docks fuels industries across Europe, bringing immense wealth and employment to the region."
  sweden_flavor.9.f: "The very air in Sundsvall hums with the energy of industry, thick with the scent of sawdust and the promise of prosperity forged from our forests."
  sweden_flavor.9.a: "Capitalize on the Timber Trade!"
- sundsvall_timber: "Sundsvall"
+ sweden_sundsvall_timber: "Sundsvall"
 
  swedish_retake_finland: "Reclaiming Finland"
  swedish_retake_finland_reason: "More than a century has passed since Finland was cruelly severed from our dominion, and the tyranny of the Eastern Bear has weighed heavily upon the Finnish people. Yet, the winds of change are stirring. With renewed strength and cunning, we may now possess the means to reclaim what is rightfully ours and liberate our long-suffering brethren."
@@ -30,7 +30,7 @@
  sweden_flavor.10.d: "After generations under the oppressive yoke of Russian rule, Finland is finally free! Our banners fly once more over Helsinki and beyond, as the Eastern Bear has been decisively repelled, its ambitions shattered. The arduous struggle has ended, and our Finnish brothers and sisters now stand reunited with their true kin, their cries of jubilation echoing across the liberated lands."
  sweden_flavor.10.f: "The joy of reunion washes over the land; our brave Finnish kin are at last brought home, where they belong."
  sweden_flavor.10.a: "Embrace Our Liberated Brothers!"
- retake_finland: "Finland reclaimed"
+ sweden_retake_finland: "Finland reclaimed"
 
  swedish_bergslagen_revival: "The Iron Heart Awakens"
  swedish_bergslagen_revival_reason: "Bergslagen, Sweden's ancient mining district, holds the key to our industrial future. Modernizing its operations is essential to meet the burgeoning demand for metals."
@@ -38,7 +38,7 @@
  sweden_flavor.11.d: "For centuries deep mines of Bergslagen have supplied the iron and copper that form the backbone of Swedish industry. However, as the world advances, demanding higher quantity and quality of metal, our traditional methods risk falling behind. We face a critical choice: invest heavily in modernizing these ancient operations or risk losing our competitive edge in the global market."
  sweden_flavor.11.f: "Awaken the heart of swedish pride"
  sweden_flavor.11.a: "Launch a national modernization program for Bergslagen."
- iron_production: "Swedish Iron Prowess"
+ sweden_iron_production: "Swedish Iron Prowess"
 
 #  swedish_nobel_dynamite: "Alfred Nobel's Explosive Genius"
 #  swedish_nobel_dynamite_reason: "Witness the revolutionary invention of dynamite by Alfred Nobel."
@@ -54,7 +54,7 @@
  sweden_flavor.13.d: "As our nation grows and modernizes, a powerful new vision is taking root: the concept of 'Folkhemmet', The People's Home. This is not merely a political platform, but a promise of a society built on solidarity, social equality, and shared welfare, where all citizens, regardless of background, are secure and contribute to the common good. It calls for comprehensive reforms in education, healthcare, social security, and housing, ensuring that prosperity benefits every Swede and lays the groundwork for a truly just society."
  sweden_flavor.13.f: "The foundation for a truly just and prosperous society is being laid, brick by brick, by the collective will and shared purpose of our people."
  sweden_flavor.13.a: "Commit to Building the People's Home!"
- folkhemmet: "Building the Peoples Home"
+ sweden_folkhemmet: "Building the Peoples Home"
 
  swedish_abolish_estates: "Abolishing the Old Order"
  swedish_abolish_estates_reason: "Confront the anachronistic Riksdag of the Estates and usher in a modern, representative parliamentary system for Sweden, reflecting the will of all citizens."
@@ -62,7 +62,7 @@
  sweden_flavor.14.d: "For centuries, the Riksdag of the Estates, representing the nobility, clergy, burghers, and peasantry, has served as Sweden's parliament. Yet, in this modern age, its antiquated structure, rooted in a bygone era of privilege and fixed social orders, has become an undeniable obstacle. The clamor for its abolition grows louder by the day, a demand for a unified, modern legislature that truly reflects the aspirations and dynamism of our evolving nation."
  sweden_flavor.14.f: "The sun sets on a bygone era of privilege, as Sweden prepares to embrace a new dawn of political modernity and genuine representation."
  sweden_flavor.14.a: "Forge a Modern Parliament!"
- abolish_estates: "Modern Parliamentary System"
+ sweden_abolish_estates: "Modern Parliamentary System"
 
  swedish_timber_export: "The Green Gold Export"
  swedish_timber_export_reason: "Our abundant forests are a blessing, but exporting raw timber may not be the most profitable path. We must consider how to best utilize this national resource."
@@ -71,8 +71,8 @@
  sweden_flavor.15.f: "The very trees whisper of potential, but will we merely fell them or build with their bounty?"
  sweden_flavor.15.a: "Focus on Raw Exports for now."
  sweden_flavor.15.b: "Invest in Sawmills and Furniture Manufactories!"
- increased_furniture_manufactories: "Increased Furniture Manufactories"
- timber_export: "Timber Export"
+ sweden_increased_furniture_manufactories: "Increased Furniture Manufactories"
+ sweden_timber_export: "Timber Export"
 
 #  swedish_stockholm_exhibition: "Showcasing Sweden: The 1897 Exhibition"
 #  swedish_stockholm_exhibition_reason: "Stockholm is set to host a grand international exhibition, a magnificent opportunity to display Swedish innovation, culture, and progress to the world."
@@ -88,7 +88,7 @@
  sweden_flavor.17.d: "Whispers from the desolate, frozen expanse of Lapland have solidified into a resounding truth: the mountains near Malmberget conceal an iron ore deposit of unparalleled scale and purity. This discovery promises not merely a mine, but a veritable mountain of 'iron gold' capable of supplying the demands of industrializing Europe for generations. However, the sheer remoteness and the harsh Arctic climate present immense challenges. Exploiting this treasure will require monumental investments in railways stretching across vast wilderness, advanced mining techniques, and the brave souls willing to carve a new society from the frozen north. Success could redefine Sweden's industrial future."
  sweden_flavor.17.f: "Where the Sami once roamed, the hammer of industry now calls."
  sweden_flavor.17.a: "Embark on the monumental task of developing Malmberget."
- railway_development: "Railway Development"
+ sweden_railway_development: "Railway Development"
 
 #  swedish_trapatron: "The Träpatroner's Grip"
 #  swedish_trapatron_reason: "Observe the consolidation of immense power and wealth by a new class of timber magnates in Norrland, whose influence shapes entire communities and industries."
@@ -153,7 +153,7 @@
  sweden_event.5.f: "The Word of God burns bright in the hearts of the faithful, illuminating a path beyond the established order."
  sweden_event.5.a: "Allow the Movement to Flourish!"
  sweden_event.5.b: "Support the State Church's Authority!"
- lasare_movement: "Spiritual Awakening"
+ sweden_lasare_movement: "Spiritual Awakening"
  sweden_church_support: "Church Support"
 
  sweden_event.6.t: "The Grand Showcase: Stockholm's Exposition"
@@ -189,7 +189,7 @@
  sweden_event.11.a: "Fully Liberalize Trade!"
 
  sweden_event.12.t: "The Municipal Reform of 1862: Local Self-Governance"
- sweden_event.12.d: "To better manage local affairs and empower regional communities, Sweden has implemented the Municipal Reform of 1862. This comprehensive law grants significantly increased autonomy to municipalities (kommuner), allowing them greater control over local taxation, public services, and infrastructure development, independent of central government oversight. This decentralization fosters local initiative and responsiveness, but it also means greater variance in local services and may lead to disparities between wealthier and poorer regions."
+ sweden_event.12.d: "To better manage local affairs and empower regional communities, Sweden has implemented the Municipal Reform of 1862. This comprehensive law grants significantly increased autonomy to municipalities (kommuner), allowing them greater control over local taxation, public services, and infrastructure development, independent of central government oversight."
  sweden_event.12.f: "Power descends to the local hearths, allowing communities to forge their own destinies."
  sweden_event.12.a: "Strengthen Local Autonomy!"
 
@@ -199,7 +199,7 @@
  sweden_event.13.a: "Recognize Workers' Rights!"
 
  sweden_event.14.t: "The Old-Age Pension Law of 1913: A Pioneer in Social Security"
- sweden_event.14.d: "Sweden stands on the cusp of pioneering comprehensive social security with the adoption of the Old-Age Pension Law of 1913. This groundbreaking legislation establishes a national system of old-age pensions, providing financial support for the elderly regardless of their previous income or social status. This progressive step aims to alleviate poverty among the aged and provide a safety net for all citizens in their later years. While it sets a new standard for social welfare, it necessitates significant ongoing state funding and marks a substantial expansion of government responsibility for its citizens' well-being."
+ sweden_event.14.d: "Sweden has implemented the Old-Age Pension Law of 1913. This groundbreaking legislation establishes a national system of old-age pensions, providing financial support for the elderly regardless of their previous income or social status. This progressive step aims to alleviate poverty among the aged and provide a safety net for all citizens in their later years. While it sets a new standard for social welfare, it necessitates significant ongoing state funding and marks a substantial expansion of government responsibility for its citizens' well-being."
  sweden_event.14.f: "The promise of dignity in old age shines bright, a beacon of a compassionate and forward-looking nation."
  sweden_event.14.a: "Enact the National Pension!"
 
@@ -214,7 +214,7 @@
  sweden_event.16.a: "Enact Women's Universal Suffrage!"
 
  sweden_event.17.t: "The Right to Strike and Lockout Act (1906): Labor's New Power"
- sweden_event.17.d: "Building on the legalization of trade unions, the Riksdag has passed a pivotal law in 1906 formally recognizing the right to strike for workers and the right to lockout for employers. This act establishes a legal framework for industrial disputes, acknowledging these as legitimate tools in labor relations. While it doesn't solve all conflicts, it represents a significant step towards codifying industrial rights and responsibilities, empowering both labor and capital within a defined legal system and contributing to a more stable, albeit sometimes volatile, industrial landscape."
+ sweden_event.17.d: "Building on the legalization of trade unions, the Riksdag has passed a pivotal law in 1906 formally recognizing the right to strike for workers and the right to lockout for employers. This act establishes a legal framework for industrial disputes, acknowledging these as legitimate tools in labor relations. Empowering both labor and capital within a defined legal system and contributing to a more stable, albeit sometimes volatile, industrial landscape."
  sweden_event.17.f: "The scales of industrial power tilt, balancing the rights of labor and capital under the law."
  sweden_event.17.a: "Codify Strike & Lockout Rights!"
 
@@ -227,5 +227,4 @@
  sweden_event.19.d: "On a sweltering July day in 1888, disaster struck the bustling timber capital of Sundsvall. A spark, fanned by strong winds, ignited the city's predominantly wooden structures, leading to a cataclysmic inferno that consumed nearly every building. The roar of the blaze, coupled with the screams of the displaced, turned the prosperous city into a smoldering ruin almost overnight. Now, amidst the devastation, a monumental task lies ahead: to rebuild. The tragedy presents a unique opportunity to construct a new, modern city – a 'Stone City' of brick and stone, designed with wider streets and fire-resistant materials, ensuring that Sundsvall rises stronger and safer from its ashes."
  sweden_event.19.f: "The smoke may still linger, but from the charred remains, the blueprint for a resilient and modern Sundsvall is already being drawn."
  sweden_event.19.a: "Begin the Rebuilding of Stone!"
- sundsvall_fire: "Sundsvalls Rebirth"
-
+ sweden_sundsvall_fire: "Sundsvalls Rebirth"

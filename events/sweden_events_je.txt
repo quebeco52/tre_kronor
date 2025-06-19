@@ -25,7 +25,11 @@ sweden_flavor.7 = {
 			random_scope_state = {
 				limit = {
 					owner = {
-						c:SWE = THIS
+						OR = {
+							c:SWE = THIS
+							c:SCA = THIS	
+						}
+						
 					}
 				}
 				save_scope_as = svea_state
@@ -72,7 +76,11 @@ sweden_flavor.8 = {
 			random_scope_state = {
 				limit = {
 					owner = {
-						c:SWE = THIS
+						OR = {
+							c:SWE = THIS
+							c:SCA = THIS	
+						}
+						
 					}
 				}
 				save_scope_as = gotaland_state
@@ -118,7 +126,11 @@ sweden_flavor.9 = {
 			random_scope_state = {
 				limit = {
 					owner = {
-						c:SWE = THIS
+						OR = {
+							c:SWE = THIS
+							c:SCA = THIS	
+						}
+						
 					}
 				}
 				save_scope_as = norrland_state
@@ -214,7 +226,11 @@ sweden_flavor.11 = {
 			random_scope_state = {
 				limit = {
 					owner = {
-						c:SWE = THIS
+						OR = {
+							c:SWE = THIS
+							c:SCA = THIS	
+						}
+						
 					}
 				}
 				save_scope_as = svea_state
@@ -232,6 +248,12 @@ sweden_flavor.11 = {
 				name = sweden_iron_production
 				years = 10
 			}
+		}
+		c:SWE = {
+			add_technology_progress = {
+				technology = open_hearth_process
+				progress = 10000
+		}
 		}
 	}
 }
@@ -428,7 +450,11 @@ sweden_flavor.17 = {
 			random_scope_state = {
 				limit = {
 					owner = {
-						c:SWE = THIS
+						OR = {
+							c:SWE = THIS
+							c:SCA = THIS	
+						}
+						
 					}
 				}
 				save_scope_as = norrland_state
@@ -511,7 +537,11 @@ sweden_flavor.19 = {
 			random_scope_state = {
 				limit = {
 					owner = {
-						c:SWE = THIS
+						OR = {
+							c:SWE = THIS
+							c:SCA = THIS	
+						}
+						
 					}
 				}
 				save_scope_as = gotaland_state
@@ -554,7 +584,11 @@ sweden_flavor.20 = {
 			random_scope_state = {
 				limit = {
 					owner = {
-						c:SWE = THIS
+						OR = {
+							c:SWE = THIS
+							c:SCA = THIS	
+						}
+						
 					}
 				}
 				save_scope_as = scania_state
@@ -597,7 +631,11 @@ sweden_flavor.21 = {
 			random_scope_state = {
 				limit = {
 					owner = {
-						c:SWE = THIS
+						OR = {
+							c:SWE = THIS
+							c:SCA = THIS	
+						}
+						
 					}
 				}
 				save_scope_as = svea_state

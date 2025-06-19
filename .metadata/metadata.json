@@ -1,8 +1,8 @@
 {
   "name" : "Tre Kronor",
   "id" : "",
-  "version" : "0.1",
-  "supported_game_version" : "1.8.*",
+  "version" : "0.2",
+  "supported_game_version" : "1.9.*",
   "short_description" : "Sweden Flavor",
   "picture" : "thumbnail.png",
   "tags" : [],

@@ -140,6 +140,7 @@ swedish_bergslagen_revival = {
 
 	complete = {
 		has_technology_researched = watertube_boiler
+		has_technology_researched = bessemer_process
 		s:STATE_SVEALAND = {
 		    any_scope_state = {
 				any_scope_building = {

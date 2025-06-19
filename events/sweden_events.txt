@@ -58,7 +58,7 @@ sweden_event.2 = {
 		has_variable = mortala_verkstad
 		has_technology_researched = labor_movement
 		NOT = {
-			has_variable = var_event_2
+			has_variable = ttb_swe_var_event_2
 		}
 	}
 
@@ -67,13 +67,16 @@ sweden_event.2 = {
 			random_scope_state = {
 				limit = {
 					owner = {
-						c:SWE = THIS
+						OR = {
+							c:SWE = THIS
+							c:SCA = THIS
+						}
 					}
 				}
 				save_scope_as = svea_state
 			}
 		}
-		set_variable = var_event_2
+		set_variable = ttb_swe_var_event_2
 	}
 
 	placement = scope:svea_state
@@ -127,12 +130,12 @@ sweden_event.3 = {
 		country_has_primary_culture = cu:swedish
 		has_technology_researched = mutual_funds
 		NOT = {
-			has_variable = var_event_3
+			has_variable = ttb_swe_var_event_3
 		}
 	}
 
 	immediate = {
-		set_variable = var_event_3
+		set_variable = ttb_swe_var_event_3
 	}
 
 	option = {
@@ -163,12 +166,12 @@ sweden_event.4 = {
 	trigger = {
 		has_technology_researched = fractional_distillation
 		NOT = {
-			has_variable = var_event_4
+			has_variable = ttb_swe_var_event_4
 		}
 	}
 
 	immediate = {
-		set_variable = var_event_4
+		set_variable = ttb_swe_var_event_4
 	}
 
 	option = {
@@ -212,12 +215,12 @@ sweden_event.5 = {
 			has_law = law_type:law_religious_schools
 		}
 		NOT = {
-			has_variable = var_event_5
+			has_variable = ttb_swe_var_event_5
 		}
 	}
 
 	immediate = {
-		set_variable = var_event_5
+		set_variable = ttb_swe_var_event_5
 	}
 
 	option = {
@@ -257,12 +260,12 @@ sweden_event.6 = {
 		country_has_primary_culture = cu:swedish
 		has_technology_researched = film
 		NOT = {
-			has_variable = var_event_6
+			has_variable = ttb_swe_var_event_6
 		}
 	}
 
 	immediate = {
-		set_variable = var_event_6
+		set_variable = ttb_swe_var_event_6
 	}
 
 	option = {
@@ -294,12 +297,12 @@ sweden_event.7 = {
 		country_has_primary_culture = cu:swedish
 		has_technology_researched = improved_fertilizer
 		NOT = {
-			has_variable = var_event_7
+			has_variable = ttb_swe_var_event_7
 		}
 	}
 
 	immediate = {
-		set_variable = var_event_7
+		set_variable = ttb_swe_var_event_7
 	}
 
 	option = {
@@ -331,12 +334,12 @@ sweden_event.8 = {
 		country_has_primary_culture = cu:swedish
 		has_law = law_type:law_public_schools
 		NOT = {
-			has_variable = var_event_8
+			has_variable = ttb_swe_var_event_8
 		}
 	}
 
 	immediate = {
-		set_variable = var_event_8
+		set_variable = ttb_swe_var_event_8
 	}
 
 	option = {
@@ -368,12 +371,12 @@ sweden_event.9 = {
 		}
 		
 		NOT = {
-			has_variable = var_event_9
+			has_variable = ttb_swe_var_event_9
 		}
 	}
 
 	immediate = {
-		set_variable = var_event_9
+		set_variable = ttb_swe_var_event_9
 	}
 
 	option = {
@@ -401,12 +404,12 @@ sweden_event.10 = {
 		country_has_primary_culture = cu:swedish
 		has_law = law_type:law_poor_laws
 		NOT = {
-			has_variable = var_event_10
+			has_variable = ttb_swe_var_event_10
 		}
 	}
 
 	immediate = {
-		set_variable = var_event_10
+		set_variable = ttb_swe_var_event_10
 	}
 
 	option = {
@@ -434,12 +437,12 @@ sweden_event.11 = {
 		country_has_primary_culture = cu:swedish
 		has_law = law_type:law_laissez_faire
 		NOT = {
-			has_variable = var_event_11
+			has_variable = ttb_swe_var_event_11
 		}
 	}
 
 	immediate = {
-		set_variable = var_event_11
+		set_variable = ttb_swe_var_event_11
 	}
 
 	option = {
@@ -467,12 +470,12 @@ sweden_event.12 = {
 		country_has_primary_culture = cu:swedish
 		has_law = law_type:law_elected_bureaucrats
 		NOT = {
-			has_variable = var_event_12
+			has_variable = ttb_swe_var_event_12
 		}
 	}
 
 	immediate = {
-		set_variable = var_event_12
+		set_variable = ttb_swe_var_event_12
 	}
 
 	option = {
@@ -500,12 +503,12 @@ sweden_event.13 = {
 		country_has_primary_culture = cu:swedish
 		has_law = law_type:law_regulatory_bodies
 		NOT = {
-			has_variable = var_event_13
+			has_variable = ttb_swe_var_event_13
 		}
 	}
 
 	immediate = {
-		set_variable = var_event_13
+		set_variable = ttb_swe_var_event_13
 	}
 
 	option = {
@@ -533,12 +536,12 @@ sweden_event.14 = {
 		country_has_primary_culture = cu:swedish
 		has_law = law_type:law_old_age_pension
 		NOT = {
-			has_variable = var_event_14
+			has_variable = ttb_swe_var_event_14
 		}
 	}
 
 	immediate = {
-		set_variable = var_event_14
+		set_variable = ttb_swe_var_event_14
 	}
 
 	option = {
@@ -566,12 +569,12 @@ sweden_event.15 = {
 		country_has_primary_culture = cu:swedish
 		has_law = law_type:law_homesteading
 		NOT = {
-			has_variable = var_event_15
+			has_variable = ttb_swe_var_event_15
 		}
 	}
 
 	immediate = {
-		set_variable = var_event_15
+		set_variable = ttb_swe_var_event_15
 	}
 
 	option = {
@@ -599,12 +602,12 @@ sweden_event.16 = {
 		country_has_primary_culture = cu:swedish
 		has_law = law_type:law_womens_suffrage
 		NOT = {
-			has_variable = var_event_16
+			has_variable = ttb_swe_var_event_16
 		}
 	}
 
 	immediate = {
-		set_variable = var_event_16
+		set_variable = ttb_swe_var_event_16
 	}
 
 	option = {
@@ -632,12 +635,12 @@ sweden_event.17 = {
 		country_has_primary_culture = cu:swedish
 		has_law = law_type:law_worker_protections
 		NOT = {
-			has_variable = var_event_17
+			has_variable = ttb_swe_var_event_17
 		}
 	}
 
 	immediate = {
-		set_variable = var_event_17
+		set_variable = ttb_swe_var_event_17
 	}
 
 	option = {
@@ -667,12 +670,12 @@ sweden_event.18 = {
 		has_law = law_type:law_public_schools
 		
 		NOT = {
-			has_variable = var_event_18
+			has_variable = ttb_swe_var_event_18
 		}
 	}
 
 	immediate = {
-		set_variable = var_event_18
+		set_variable = ttb_swe_var_event_18
 	}
 
 	option = {
@@ -705,22 +708,23 @@ sweden_event.18 = {
 # 		game_date >= 1888
 
 # 		NOT = {
-# 			has_variable = var_event_19
+# 			has_variable = ttb_swe_var_event_19
 # 		}
 # 	}
 
 # 	immediate = {
-#         s:STATE_NORRLAND = {
+#   	s:STATE_NORRLAND = {
 # 			random_scope_state = {
 # 				limit = {
 # 					owner = {
 # 						c:SWE = THIS
+#					    c:SCA = THIS
 # 					}
 # 				}
 # 				save_scope_as = norrland_state
 # 			}
 # 		}
-# 		set_variable = var_event_19
+# 		set_variable = ttb_swe_var_event_19
 # 	}
 
 # 	placement = scope:norrland_state

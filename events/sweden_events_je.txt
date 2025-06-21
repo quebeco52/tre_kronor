@@ -253,8 +253,9 @@ sweden_flavor.11 = {
 			add_technology_progress = {
 				technology = open_hearth_process
 				progress = 10000
+			}
 		}
-		}
+			
 	}
 }
 
@@ -653,6 +654,3 @@ sweden_flavor.21 = {
 		}
 	}
 }
-
-
-

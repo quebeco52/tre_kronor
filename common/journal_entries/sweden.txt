@@ -135,7 +135,7 @@ swedish_bergslagen_revival = {
 	}
 
 	possible = {
-		has_technology_researched = watertube_boiler
+		has_technology_researched = mechanical_tools
 	}
 
 	complete = {
@@ -146,7 +146,7 @@ swedish_bergslagen_revival = {
 				any_scope_building = {
 					is_building_type = building_iron_mine
 					level >= 8
-					occupancy > 0.50
+					occupancy > 0.75
 				}
 			}
 		}

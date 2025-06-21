@@ -228,3 +228,5 @@
  sweden_event.19.f: "The smoke may still linger, but from the charred remains, the blueprint for a resilient and modern Sundsvall is already being drawn."
  sweden_event.19.a: "Begin the Rebuilding of Stone!"
  sweden_sundsvall_fire: "Sundsvalls Rebirth"
+ law_guilds: "guilds"
+ law_guilds_desc: "test"

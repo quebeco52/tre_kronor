@@ -10,7 +10,7 @@ sweden_good_glass_quality = {
 }
 
 sweden_sundsvall_timber = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	building_group_bg_logging_throughput_add = 0.05
 	building_furniture_manufacturies_throughput_add = 0.05
 }

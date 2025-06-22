@@ -550,38 +550,38 @@ sweden_event.14 = {
 	}
 }
 
-sweden_event.15 = {
-	type = country_event
+# sweden_event.15 = {
+# 	type = country_event
 
-	title = sweden_event.15.t
-	desc = sweden_event.15.d
-	flavor = sweden_event.15.f
+# 	title = sweden_event.15.t
+# 	desc = sweden_event.15.d
+# 	flavor = sweden_event.15.f
 
-	event_image = {
-		video = "europenorthamerica_capitalists_meeting"
-	}
+# 	event_image = {
+# 		video = "europenorthamerica_capitalists_meeting"
+# 	}
 
-	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+# 	icon = "gfx/interface/icons/event_icons/event_trade.dds"
 
-	duration = 3
+# 	duration = 3
 
-	trigger = {
-		country_has_primary_culture = cu:swedish
-		has_law = law_type:law_homesteading
-		NOT = {
-			has_variable = ttb_swe_var_event_15
-		}
-	}
+# 	trigger = {
+# 		country_has_primary_culture = cu:swedish
+# 		has_law = law_type:law_homesteading
+# 		NOT = {
+# 			has_variable = ttb_swe_var_event_15
+# 		}
+# 	}
 
-	immediate = {
-		set_variable = ttb_swe_var_event_15
-	}
+# 	immediate = {
+# 		set_variable = ttb_swe_var_event_15
+# 	}
 
-	option = {
-		name = sweden_event.15.a
-		default_option = yes
-	}
-}
+# 	option = {
+# 		name = sweden_event.15.a
+# 		default_option = yes
+# 	}
+# }
 
 sweden_event.16 = {
 	type = country_event

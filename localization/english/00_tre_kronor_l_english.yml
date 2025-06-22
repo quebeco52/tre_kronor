@@ -203,10 +203,10 @@
  sweden_event.14.f: "The promise of dignity in old age shines bright, a beacon of a compassionate and forward-looking nation."
  sweden_event.14.a: "Enact the National Pension!"
 
- sweden_event.15.t: "The Homestead Act (1888): Encouraging Internal Migration"
- sweden_event.15.d: "To populate sparsely settled northern regions and provide opportunities for landless rural Pops, Sweden has adopted a version of the Homestead Act in 1888. This law offers free or low-cost Crown land to settlers willing to develop and cultivate it for a specified period. The aim is to boost agricultural output in new areas, reduce internal migration to overcrowded cities, and stem the flow of emigration. While promising new opportunities, it requires significant investment in infrastructure to support these new settlements and challenges traditional land ownership."
- sweden_event.15.f: "The axe rings out in the northern wilderness, a testament to the promise of new lands."
- sweden_event.15.a: "Open Up the Frontiers!"
+ #  sweden_event.15.t: "The Homestead Act (1888): Encouraging Internal Migration"
+ #  sweden_event.15.d: "To populate sparsely settled northern regions and provide opportunities for landless rural Pops, Sweden has adopted a version of the Homestead Act in 1888. This law offers free or low-cost Crown land to settlers willing to develop and cultivate it for a specified period. The aim is to boost agricultural output in new areas, reduce internal migration to overcrowded cities, and stem the flow of emigration. While promising new opportunities, it requires significant investment in infrastructure to support these new settlements and challenges traditional land ownership."
+ #  sweden_event.15.f: "The axe rings out in the northern wilderness, a testament to the promise of new lands."
+ #  sweden_event.15.a: "Open Up the Frontiers!"
 
  sweden_event.16.t: "The Women's Suffrage Act (1919-1921): Full Political Equality"
  sweden_event.16.d: "After decades of tireless campaigning by the women's suffrage movement, supported by liberal and social democratic parties, the Riksdag has finally passed comprehensive legislation granting universal suffrage to women. This momentous act establishes full political equality between men and women, allowing all adult female citizens to vote and stand for election. It marks a profound transformation of Sweden's political landscape, doubling the electorate and bringing new perspectives to governance, solidifying Sweden as a leading nation in democratic rights."
@@ -228,5 +228,10 @@
  sweden_event.19.f: "The smoke may still linger, but from the charred remains, the blueprint for a resilient and modern Sundsvall is already being drawn."
  sweden_event.19.a: "Begin the Rebuilding of Stone!"
  sweden_sundsvall_fire: "Sundsvalls Rebirth"
- law_guilds: "guilds"
- law_guilds_desc: "test"
+
+ #Laws
+ law_guilds: "Guild System"
+ law_guilds_desc: "The Guild System emphasizes artisan crafts and empowers the middle classes with memberships to organized guilds that sets quality standards and rules."
+ 
+ law_Riksdag_of_the_Estates: "Riksdag of the Estates"
+ law_Riksdag_of_the_Estates_desc: "The Riksdag of Estates, a four-chamber parliament of privileged social classes, shared legislative power with the King."

@@ -1,0 +1,8 @@
+﻿# This is executed last among all history
+GLOBAL = {
+	c:SWE = {
+		activate_law = law_type:law_guilds
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_Riksdag_of_the_Estates
+	}
+}

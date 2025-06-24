@@ -34,13 +34,14 @@
 		country_government_dividends_reinvestment_add = 0.5
 		country_government_dividends_efficiency_add = 0.25
 		country_free_charters_add = 3
-		state_capitalists_investment_pool_efficiency_mult = -0.10
-		state_shopkeepers_investment_pool_efficiency_mult = 0.50
+		state_shopkeepers_investment_pool_efficiency_mult = 0.30
 		state_clergymen_investment_pool_efficiency_mult = 0.10
-		state_farmers_investment_pool_efficiency_mult = 0.20
+		state_farmers_investment_pool_efficiency_mult = 0.10
 		country_leverage_resistance_mult = 0.25
 		building_group_bg_manufacturing_allowed_collectivization_add = 0.2
 		building_group_bg_arts_allowed_collectivization_add = 0.2
+		building_group_bg_private_infrastructure_allowed_collectivization_add = 0.2
+		
 	}
 
 	ai_enact_weight_modifier = { #Petitions
